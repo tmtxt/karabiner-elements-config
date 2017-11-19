@@ -1,0 +1,63 @@
+{
+  "title": "Misc",
+  "rules": [
+    {
+      "description": "Shf+F11/F10 to volumn Up/Down",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f11",
+            "modifiers": {
+              "mandatory": [
+                "shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "volume_increment"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f10",
+            "modifiers": {
+              "mandatory": [
+                "shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "volume_decrement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Shf+F9 to Volume mute",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f9",
+            "modifiers": {
+              "mandatory": [
+                "shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "mute"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
