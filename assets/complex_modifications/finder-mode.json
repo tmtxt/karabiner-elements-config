@@ -1,0 +1,36 @@
+{
+  "title": "Keys in Finder",
+  "rules": [
+    {
+      "description": "Finder - Cmd+Opt+I to Up 1 level",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "i",
+            "modifiers": {
+              "mandatory": [
+                "command",
+                "option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "up_arrow",
+              "modifiers": "command"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^com\\.apple\\.finder$"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
