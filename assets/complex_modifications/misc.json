@@ -58,6 +58,53 @@
           ]
         }
       ]
+    },
+    {
+      "description": "J+K at the same time to Escape",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "j",
+            "modifiers": {
+              "mandatory": [
+                "k"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "escape"
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "j"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "k",
+            "modifiers": {
+              "mandatory": [
+                "j"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "escape"
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "k"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
