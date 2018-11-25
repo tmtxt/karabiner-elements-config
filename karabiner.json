@@ -2231,7 +2231,7 @@
                 }
             ],
             "name": "Internal Keyboard",
-            "selected": false,
+            "selected": true,
             "simple_modifications": [
                 {
                     "from": {
@@ -4521,7 +4521,7 @@
                 }
             ],
             "name": "Kinesis Advantage",
-            "selected": true,
+            "selected": false,
             "simple_modifications": [
                 {
                     "from": {
