@@ -1010,6 +1010,7 @@
                                             "^org\\.macosforge\\.xquartz\\.X11$",
                                             "^org\\.macports\\.X11$",
                                             "^com\\.jetbrains\\.rider$",
+                                            "^com\\.jetbrains\\.WebStorm$",
                                             "^com\\.jetbrains\\.intellij\\.ce$",
                                             "^com\\.microsoft\\.rdc\\.macos$"
                                         ],
@@ -1074,6 +1075,7 @@
                                             "^org\\.macosforge\\.xquartz\\.X11$",
                                             "^org\\.macports\\.X11$",
                                             "^com\\.jetbrains\\.rider$",
+                                            "^com\\.jetbrains\\.WebStorm$",
                                             "^com\\.jetbrains\\.intellij\\.ce$",
                                             "^com\\.microsoft\\.rdc\\.macos$"
                                         ],
@@ -1138,6 +1140,7 @@
                                             "^org\\.macosforge\\.xquartz\\.X11$",
                                             "^org\\.macports\\.X11$",
                                             "^com\\.jetbrains\\.rider$",
+                                            "^com\\.jetbrains\\.WebStorm$",
                                             "^com\\.jetbrains\\.intellij\\.ce$",
                                             "^com\\.microsoft\\.rdc\\.macos$"
                                         ],
@@ -1202,6 +1205,7 @@
                                             "^org\\.macosforge\\.xquartz\\.X11$",
                                             "^org\\.macports\\.X11$",
                                             "^com\\.jetbrains\\.rider$",
+                                            "^com\\.jetbrains\\.WebStorm$",
                                             "^com\\.jetbrains\\.intellij\\.ce$",
                                             "^com\\.microsoft\\.rdc\\.macos$"
                                         ],
@@ -4092,6 +4096,7 @@
                                             "^org\\.macosforge\\.xquartz\\.X11$",
                                             "^org\\.macports\\.X11$",
                                             "^com\\.jetbrains\\.rider$",
+                                            "^com\\.jetbrains\\.WebStorm$",
                                             "^com\\.jetbrains\\.intellij\\.ce$",
                                             "^com\\.microsoft\\.rdc\\.macos$"
                                         ],
@@ -4156,6 +4161,7 @@
                                             "^org\\.macosforge\\.xquartz\\.X11$",
                                             "^org\\.macports\\.X11$",
                                             "^com\\.jetbrains\\.rider$",
+                                            "^com\\.jetbrains\\.WebStorm$",
                                             "^com\\.jetbrains\\.intellij\\.ce$",
                                             "^com\\.microsoft\\.rdc\\.macos$"
                                         ],
@@ -4220,6 +4226,7 @@
                                             "^org\\.macosforge\\.xquartz\\.X11$",
                                             "^org\\.macports\\.X11$",
                                             "^com\\.jetbrains\\.rider$",
+                                            "^com\\.jetbrains\\.WebStorm$",
                                             "^com\\.jetbrains\\.intellij\\.ce$",
                                             "^com\\.microsoft\\.rdc\\.macos$"
                                         ],
@@ -4284,6 +4291,7 @@
                                             "^org\\.macosforge\\.xquartz\\.X11$",
                                             "^org\\.macports\\.X11$",
                                             "^com\\.jetbrains\\.rider$",
+                                            "^com\\.jetbrains\\.WebStorm$",
                                             "^com\\.jetbrains\\.intellij\\.ce$",
                                             "^com\\.microsoft\\.rdc\\.macos$"
                                         ],
