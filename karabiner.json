@@ -1010,6 +1010,7 @@
                                             "^org\\.macosforge\\.xquartz\\.X11$",
                                             "^org\\.macports\\.X11$",
                                             "^com\\.jetbrains\\.rider$",
+                                            "^com\\.jetbrains\\.datagrip$",
                                             "^com\\.jetbrains\\.WebStorm$",
                                             "^com\\.jetbrains\\.intellij\\.ce$",
                                             "^com\\.microsoft\\.rdc\\.macos$"
@@ -1075,6 +1076,7 @@
                                             "^org\\.macosforge\\.xquartz\\.X11$",
                                             "^org\\.macports\\.X11$",
                                             "^com\\.jetbrains\\.rider$",
+                                            "^com\\.jetbrains\\.datagrip$",
                                             "^com\\.jetbrains\\.WebStorm$",
                                             "^com\\.jetbrains\\.intellij\\.ce$",
                                             "^com\\.microsoft\\.rdc\\.macos$"
@@ -1140,6 +1142,7 @@
                                             "^org\\.macosforge\\.xquartz\\.X11$",
                                             "^org\\.macports\\.X11$",
                                             "^com\\.jetbrains\\.rider$",
+                                            "^com\\.jetbrains\\.datagrip$",
                                             "^com\\.jetbrains\\.WebStorm$",
                                             "^com\\.jetbrains\\.intellij\\.ce$",
                                             "^com\\.microsoft\\.rdc\\.macos$"
@@ -1205,6 +1208,7 @@
                                             "^org\\.macosforge\\.xquartz\\.X11$",
                                             "^org\\.macports\\.X11$",
                                             "^com\\.jetbrains\\.rider$",
+                                            "^com\\.jetbrains\\.datagrip$",
                                             "^com\\.jetbrains\\.WebStorm$",
                                             "^com\\.jetbrains\\.intellij\\.ce$",
                                             "^com\\.microsoft\\.rdc\\.macos$"
@@ -2265,7 +2269,7 @@
             "parameters": {
                 "delay_milliseconds_before_open_device": 1000
             },
-            "selected": true,
+            "selected": false,
             "simple_modifications": [
                 {
                     "from": {
@@ -4096,6 +4100,7 @@
                                             "^org\\.macosforge\\.xquartz\\.X11$",
                                             "^org\\.macports\\.X11$",
                                             "^com\\.jetbrains\\.rider$",
+                                            "^com\\.jetbrains\\.datagrip$",
                                             "^com\\.jetbrains\\.WebStorm$",
                                             "^com\\.jetbrains\\.intellij\\.ce$",
                                             "^com\\.microsoft\\.rdc\\.macos$"
@@ -4161,6 +4166,7 @@
                                             "^org\\.macosforge\\.xquartz\\.X11$",
                                             "^org\\.macports\\.X11$",
                                             "^com\\.jetbrains\\.rider$",
+                                            "^com\\.jetbrains\\.datagrip$",
                                             "^com\\.jetbrains\\.WebStorm$",
                                             "^com\\.jetbrains\\.intellij\\.ce$",
                                             "^com\\.microsoft\\.rdc\\.macos$"
@@ -4226,6 +4232,7 @@
                                             "^org\\.macosforge\\.xquartz\\.X11$",
                                             "^org\\.macports\\.X11$",
                                             "^com\\.jetbrains\\.rider$",
+                                            "^com\\.jetbrains\\.datagrip$",
                                             "^com\\.jetbrains\\.WebStorm$",
                                             "^com\\.jetbrains\\.intellij\\.ce$",
                                             "^com\\.microsoft\\.rdc\\.macos$"
@@ -4291,6 +4298,7 @@
                                             "^org\\.macosforge\\.xquartz\\.X11$",
                                             "^org\\.macports\\.X11$",
                                             "^com\\.jetbrains\\.rider$",
+                                            "^com\\.jetbrains\\.datagrip$",
                                             "^com\\.jetbrains\\.WebStorm$",
                                             "^com\\.jetbrains\\.intellij\\.ce$",
                                             "^com\\.microsoft\\.rdc\\.macos$"
@@ -4597,7 +4605,7 @@
             "parameters": {
                 "delay_milliseconds_before_open_device": 1000
             },
-            "selected": false,
+            "selected": true,
             "simple_modifications": [
                 {
                     "from": {
