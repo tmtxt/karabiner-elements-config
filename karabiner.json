@@ -2113,7 +2113,7 @@
                             }
                         ]
                     },
-{
+                    {
                         "description": "F1 to open Firefox",
                         "manipulators": [
                             {
@@ -2257,6 +2257,22 @@
                             }
                         ]
                     },
+                  {
+                    "description": "F10 to open Discord",
+                    "manipulators": [
+                      {
+                        "from": {
+                          "key_code": "f10"
+                        },
+                        "to": [
+                          {
+                            "shell_command": "open -a Discord"
+                          }
+                        ],
+                        "type": "basic"
+                      }
+                    ]
+                  },
                     {
                         "description": "F11 to open Mail",
                         "manipulators": [
@@ -2445,7 +2461,7 @@
             "parameters": {
                 "delay_milliseconds_before_open_device": 1000
             },
-            "selected": true,
+            "selected": false,
             "simple_modifications": [
                 {
                     "from": {
@@ -4796,6 +4812,22 @@
                             }
                         ]
                     },
+                  {
+                    "description": "F10 to open Discord",
+                    "manipulators": [
+                      {
+                        "from": {
+                          "key_code": "f10"
+                        },
+                        "to": [
+                          {
+                            "shell_command": "open -a Discord"
+                          }
+                        ],
+                        "type": "basic"
+                      }
+                    ]
+                  },
                     {
                         "description": "F11 to open Mail",
                         "manipulators": [
@@ -4957,7 +4989,7 @@
             "parameters": {
                 "delay_milliseconds_before_open_device": 1000
             },
-            "selected": false,
+            "selected": true,
             "simple_modifications": [
                 {
                     "from": {
