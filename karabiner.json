@@ -2130,6 +2130,27 @@
                         ]
                     },
                     {
+                        "description": "Control+F1 to open Google Chrome",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f1",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "control"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a \"Google Chrome\""
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "F2 to open Emacs",
                         "manipulators": [
                             {
@@ -2162,7 +2183,28 @@
                         ]
                     },
                     {
-                        "description": "F4 to open DataGrip",
+                        "description": "Control+F3 to open DataGrip",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f3",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "control"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a Datagrip"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "F4 to open Discord",
                         "manipulators": [
                             {
                                 "from": {
@@ -2170,7 +2212,28 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a Datagrip"
+                                        "shell_command": "open -a Discord"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Control+F4 to open Messenger",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f4",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "control"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a Messenger"
                                     }
                                 ],
                                 "type": "basic"
@@ -2210,38 +2273,6 @@
                         ]
                     },
                     {
-                        "description": "F7 to open Google Chrome",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "f7"
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a \"Google Chrome\""
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "F8 to open Slack",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "f8"
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a Slack"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "description": "F9 to open Notion",
                         "manipulators": [
                             {
@@ -2257,22 +2288,22 @@
                             }
                         ]
                     },
-                  {
-                    "description": "F10 to open Discord",
-                    "manipulators": [
-                      {
-                        "from": {
-                          "key_code": "f10"
-                        },
-                        "to": [
-                          {
-                            "shell_command": "open -a Discord"
-                          }
-                        ],
-                        "type": "basic"
-                      }
-                    ]
-                  },
+                    {
+                        "description": "F10 to open Slack",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f10"
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a Slack"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
                     {
                         "description": "F11 to open Mail",
                         "manipulators": [
@@ -4685,6 +4716,27 @@
                         ]
                     },
                     {
+                        "description": "Control+F1 to open Google Chrome",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f1",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "control"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a \"Google Chrome\""
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "F2 to open Emacs",
                         "manipulators": [
                             {
@@ -4717,7 +4769,28 @@
                         ]
                     },
                     {
-                        "description": "F4 to open DataGrip",
+                        "description": "Control+F3 to open DataGrip",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f3",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "control"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a Datagrip"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "F4 to open Discord",
                         "manipulators": [
                             {
                                 "from": {
@@ -4725,7 +4798,28 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a Datagrip"
+                                        "shell_command": "open -a Discord"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Control+F4 to open Messenger",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f4",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "control"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a Messenger"
                                     }
                                 ],
                                 "type": "basic"
@@ -4765,38 +4859,6 @@
                         ]
                     },
                     {
-                        "description": "F7 to open Google Chrome",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "f7"
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a \"Google Chrome\""
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "F8 to open Slack",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "f8"
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a Slack"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "description": "F9 to open Notion",
                         "manipulators": [
                             {
@@ -4812,22 +4874,22 @@
                             }
                         ]
                     },
-                  {
-                    "description": "F10 to open Discord",
-                    "manipulators": [
-                      {
-                        "from": {
-                          "key_code": "f10"
-                        },
-                        "to": [
-                          {
-                            "shell_command": "open -a Discord"
-                          }
-                        ],
-                        "type": "basic"
-                      }
-                    ]
-                  },
+                    {
+                        "description": "F10 to open Slack",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f10"
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a Slack"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
                     {
                         "description": "F11 to open Mail",
                         "manipulators": [
