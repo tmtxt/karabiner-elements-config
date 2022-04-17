@@ -2167,6 +2167,27 @@
                         ]
                     },
                     {
+                        "description": "Control+F2 to open \"Altair GraphQL Client\"",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f2",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "control"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a Altair GraphQL Client"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "F3 to open WebStorm",
                         "manipulators": [
                             {
@@ -4746,6 +4767,27 @@
                                 "to": [
                                     {
                                         "shell_command": "open -a Emacs"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Control+F2 to open Altair GraphQL Client",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f2",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "control"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a \"Altair GraphQL Client\""
                                     }
                                 ],
                                 "type": "basic"
