@@ -2114,7 +2114,7 @@
                         ]
                     },
                     {
-                        "description": "F1 to open Firefox",
+                        "description": "F1 to open Google Chrome",
                         "manipulators": [
                             {
                                 "from": {
@@ -2122,7 +2122,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a Firefox"
+                                        "shell_command": "open -a \"Google Chrome\""
                                     }
                                 ],
                                 "type": "basic"
@@ -2130,7 +2130,7 @@
                         ]
                     },
                     {
-                        "description": "Control+F1 to open Google Chrome",
+                        "description": "Control+F1 to open Firefox",
                         "manipulators": [
                             {
                                 "from": {
@@ -2143,7 +2143,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a \"Google Chrome\""
+                                        "shell_command": "open -a Firefox"
                                     }
                                 ],
                                 "type": "basic"
@@ -2151,7 +2151,7 @@
                         ]
                     },
                     {
-                        "description": "F2 to open Emacs",
+                        "description": "F2 to open Visual Studio Code",
                         "manipulators": [
                             {
                                 "from": {
@@ -2159,7 +2159,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a Emacs"
+                                        "shell_command": "open -a \"Visual Studio Code\""
                                     }
                                 ],
                                 "type": "basic"
@@ -2167,7 +2167,7 @@
                         ]
                     },
                     {
-                        "description": "Control+F2 to open \"Altair GraphQL Client\"",
+                        "description": "Control+F2 to open Emacs",
                         "manipulators": [
                             {
                                 "from": {
@@ -2180,7 +2180,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a Altair GraphQL Client"
+                                        "shell_command": "open -a Emacs"
                                     }
                                 ],
                                 "type": "basic"
@@ -2356,6 +2356,27 @@
                                 "type": "basic"
                             }
                         ]
+                    },
+                    {
+                        "description": "Control+F12 to open \"Altair GraphQL Client\"",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f12",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "control"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a Altair GraphQL Client"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
                     }
                 ]
             },
@@ -2513,7 +2534,7 @@
             "parameters": {
                 "delay_milliseconds_before_open_device": 1000
             },
-            "selected": false,
+            "selected": true,
             "simple_modifications": [
                 {
                     "from": {
@@ -4721,7 +4742,7 @@
                         ]
                     },
                     {
-                        "description": "F1 to open Firefox",
+                        "description": "F1 to open Google Chrome",
                         "manipulators": [
                             {
                                 "from": {
@@ -4729,7 +4750,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a Firefox"
+                                        "shell_command": "open -a \"Google Chrome\""
                                     }
                                 ],
                                 "type": "basic"
@@ -4737,7 +4758,7 @@
                         ]
                     },
                     {
-                        "description": "Control+F1 to open Google Chrome",
+                        "description": "Control+F1 to open Firefox",
                         "manipulators": [
                             {
                                 "from": {
@@ -4750,7 +4771,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a \"Google Chrome\""
+                                        "shell_command": "open -a Firefox"
                                     }
                                 ],
                                 "type": "basic"
@@ -4758,7 +4779,7 @@
                         ]
                     },
                     {
-                        "description": "F2 to open Emacs",
+                        "description": "F2 to open Visual Studio Code",
                         "manipulators": [
                             {
                                 "from": {
@@ -4766,7 +4787,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a Emacs"
+                                        "shell_command": "open -a \"Visual Studio Code\""
                                     }
                                 ],
                                 "type": "basic"
@@ -4774,7 +4795,7 @@
                         ]
                     },
                     {
-                        "description": "Control+F2 to open Altair GraphQL Client",
+                        "description": "Control+F2 to open Emacs",
                         "manipulators": [
                             {
                                 "from": {
@@ -4787,7 +4808,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a \"Altair GraphQL Client\""
+                                        "shell_command": "open -a Emacs"
                                     }
                                 ],
                                 "type": "basic"
@@ -4963,6 +4984,27 @@
                                 "type": "basic"
                             }
                         ]
+                    },
+                    {
+                        "description": "Control+F12 to open Altair GraphQL Client",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f12",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "control"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a \"Altair GraphQL Client\""
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
                     }
                 ]
             },
@@ -5093,7 +5135,7 @@
             "parameters": {
                 "delay_milliseconds_before_open_device": 1000
             },
-            "selected": true,
+            "selected": false,
             "simple_modifications": [
                 {
                     "from": {
