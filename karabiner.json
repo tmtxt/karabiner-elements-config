@@ -1010,6 +1010,7 @@
                                             "^org\\.macosforge\\.xquartz\\.X11$",
                                             "^org\\.macports\\.X11$",
                                             "^com\\.jetbrains\\.rider$",
+                                            "^com\\.microsoft\\.VSCode$",
                                             "^com\\.jetbrains\\.datagrip$",
                                             "^com\\.jetbrains\\.WebStorm$",
                                             "^com\\.jetbrains\\.intellij\\.ce$",
@@ -1076,6 +1077,7 @@
                                             "^org\\.macosforge\\.xquartz\\.X11$",
                                             "^org\\.macports\\.X11$",
                                             "^com\\.jetbrains\\.rider$",
+                                            "^com\\.microsoft\\.VSCode$",
                                             "^com\\.jetbrains\\.datagrip$",
                                             "^com\\.jetbrains\\.WebStorm$",
                                             "^com\\.jetbrains\\.intellij\\.ce$",
@@ -1142,6 +1144,7 @@
                                             "^org\\.macosforge\\.xquartz\\.X11$",
                                             "^org\\.macports\\.X11$",
                                             "^com\\.jetbrains\\.rider$",
+                                            "^com\\.microsoft\\.VSCode$",
                                             "^com\\.jetbrains\\.datagrip$",
                                             "^com\\.jetbrains\\.WebStorm$",
                                             "^com\\.jetbrains\\.intellij\\.ce$",
@@ -1208,6 +1211,7 @@
                                             "^org\\.macosforge\\.xquartz\\.X11$",
                                             "^org\\.macports\\.X11$",
                                             "^com\\.jetbrains\\.rider$",
+                                            "^com\\.microsoft\\.VSCode$",
                                             "^com\\.jetbrains\\.datagrip$",
                                             "^com\\.jetbrains\\.WebStorm$",
                                             "^com\\.jetbrains\\.intellij\\.ce$",
@@ -1716,6 +1720,7 @@
                                             "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                                             "^com\\.vmware\\.proxyApp\\.",
                                             "^com\\.parallels\\.winapp\\.",
+                                            "^com\\.microsoft\\.VSCode$",
                                             "^org\\.x\\.X11$",
                                             "^com\\.apple\\.x11$",
                                             "^org\\.macosforge\\.xquartz\\.X11$",
@@ -2534,7 +2539,7 @@
             "parameters": {
                 "delay_milliseconds_before_open_device": 1000
             },
-            "selected": true,
+            "selected": false,
             "simple_modifications": [
                 {
                     "from": {
@@ -3102,6 +3107,7 @@
                                             "^com\\.vmware\\.view$",
                                             "^com\\.parallels\\.desktop$",
                                             "^com\\.parallels\\.vm$",
+                                            "^com\\.microsoft\\.VSCode$",
                                             "^com\\.parallels\\.desktop\\.console$",
                                             "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                                             "^com\\.vmware\\.proxyApp\\.",
@@ -4365,6 +4371,7 @@
                                             "^org\\.macosforge\\.xquartz\\.X11$",
                                             "^org\\.macports\\.X11$",
                                             "^com\\.jetbrains\\.rider$",
+                                            "^com\\.microsoft\\.VSCode$",
                                             "^com\\.jetbrains\\.datagrip$",
                                             "^com\\.jetbrains\\.WebStorm$",
                                             "^com\\.jetbrains\\.intellij\\.ce$",
@@ -4431,6 +4438,7 @@
                                             "^org\\.macosforge\\.xquartz\\.X11$",
                                             "^org\\.macports\\.X11$",
                                             "^com\\.jetbrains\\.rider$",
+                                            "^com\\.microsoft\\.VSCode$",
                                             "^com\\.jetbrains\\.datagrip$",
                                             "^com\\.jetbrains\\.WebStorm$",
                                             "^com\\.jetbrains\\.intellij\\.ce$",
@@ -4497,6 +4505,7 @@
                                             "^org\\.macosforge\\.xquartz\\.X11$",
                                             "^org\\.macports\\.X11$",
                                             "^com\\.jetbrains\\.rider$",
+                                            "^com\\.microsoft\\.VSCode$",
                                             "^com\\.jetbrains\\.datagrip$",
                                             "^com\\.jetbrains\\.WebStorm$",
                                             "^com\\.jetbrains\\.intellij\\.ce$",
@@ -4563,6 +4572,7 @@
                                             "^org\\.macosforge\\.xquartz\\.X11$",
                                             "^org\\.macports\\.X11$",
                                             "^com\\.jetbrains\\.rider$",
+                                            "^com\\.microsoft\\.VSCode$",
                                             "^com\\.jetbrains\\.datagrip$",
                                             "^com\\.jetbrains\\.WebStorm$",
                                             "^com\\.jetbrains\\.intellij\\.ce$",
@@ -5135,7 +5145,7 @@
             "parameters": {
                 "delay_milliseconds_before_open_device": 1000
             },
-            "selected": false,
+            "selected": true,
             "simple_modifications": [
                 {
                     "from": {
