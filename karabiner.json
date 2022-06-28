@@ -1014,7 +1014,8 @@
                                             "^com\\.jetbrains\\.datagrip$",
                                             "^com\\.jetbrains\\.WebStorm$",
                                             "^com\\.jetbrains\\.intellij\\.ce$",
-                                            "^com\\.microsoft\\.rdc\\.macos$"
+                                            "^com\\.microsoft\\.rdc\\.macos$",
+                                            "^com\\.manytricks\\.KeyCodes$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -1081,7 +1082,8 @@
                                             "^com\\.jetbrains\\.datagrip$",
                                             "^com\\.jetbrains\\.WebStorm$",
                                             "^com\\.jetbrains\\.intellij\\.ce$",
-                                            "^com\\.microsoft\\.rdc\\.macos$"
+                                            "^com\\.microsoft\\.rdc\\.macos$",
+                                            "^com\\.manytricks\\.KeyCodes$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -1148,7 +1150,8 @@
                                             "^com\\.jetbrains\\.datagrip$",
                                             "^com\\.jetbrains\\.WebStorm$",
                                             "^com\\.jetbrains\\.intellij\\.ce$",
-                                            "^com\\.microsoft\\.rdc\\.macos$"
+                                            "^com\\.microsoft\\.rdc\\.macos$",
+                                            "^com\\.manytricks\\.KeyCodes$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -1215,7 +1218,8 @@
                                             "^com\\.jetbrains\\.datagrip$",
                                             "^com\\.jetbrains\\.WebStorm$",
                                             "^com\\.jetbrains\\.intellij\\.ce$",
-                                            "^com\\.microsoft\\.rdc\\.macos$"
+                                            "^com\\.microsoft\\.rdc\\.macos$",
+                                            "^com\\.manytricks\\.KeyCodes$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -4375,7 +4379,8 @@
                                             "^com\\.jetbrains\\.datagrip$",
                                             "^com\\.jetbrains\\.WebStorm$",
                                             "^com\\.jetbrains\\.intellij\\.ce$",
-                                            "^com\\.microsoft\\.rdc\\.macos$"
+                                            "^com\\.microsoft\\.rdc\\.macos$",
+                                            "^com\\.manytricks\\.KeyCodes$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -4442,7 +4447,8 @@
                                             "^com\\.jetbrains\\.datagrip$",
                                             "^com\\.jetbrains\\.WebStorm$",
                                             "^com\\.jetbrains\\.intellij\\.ce$",
-                                            "^com\\.microsoft\\.rdc\\.macos$"
+                                            "^com\\.microsoft\\.rdc\\.macos$",
+                                            "^com\\.manytricks\\.KeyCodes$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -4509,7 +4515,8 @@
                                             "^com\\.jetbrains\\.datagrip$",
                                             "^com\\.jetbrains\\.WebStorm$",
                                             "^com\\.jetbrains\\.intellij\\.ce$",
-                                            "^com\\.microsoft\\.rdc\\.macos$"
+                                            "^com\\.microsoft\\.rdc\\.macos$",
+                                            "^com\\.manytricks\\.KeyCodes$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -4576,7 +4583,8 @@
                                             "^com\\.jetbrains\\.datagrip$",
                                             "^com\\.jetbrains\\.WebStorm$",
                                             "^com\\.jetbrains\\.intellij\\.ce$",
-                                            "^com\\.microsoft\\.rdc\\.macos$"
+                                            "^com\\.microsoft\\.rdc\\.macos$",
+                                            "^com\\.manytricks\\.KeyCodes$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
