@@ -1549,7 +1549,8 @@
                                             "^com\\.apple\\.x11$",
                                             "^org\\.macosforge\\.xquartz\\.X11$",
                                             "^org\\.macports\\.X11$",
-                                            "^com\\.microsoft\\.rdc\\.macos$"
+                                            "^com\\.microsoft\\.rdc\\.macos$",
+                                          "^com\\.linear$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -2302,6 +2303,22 @@
                             }
                         ]
                     },
+                  {
+                    "description": "F7 to open Linear",
+                    "manipulators": [
+                      {
+                        "from": {
+                          "key_code": "f7"
+                        },
+                        "to": [
+                          {
+                            "shell_command": "open -a Linear"
+                          }
+                        ],
+                        "type": "basic"
+                      }
+                    ]
+                  },
                     {
                         "description": "F9 to open Notion",
                         "manipulators": [
@@ -2940,7 +2957,8 @@
                                             "^com\\.apple\\.x11$",
                                             "^org\\.macosforge\\.xquartz\\.X11$",
                                             "^org\\.macports\\.X11$",
-                                            "^com\\.microsoft\\.rdc\\.macos$"
+                                            "^com\\.microsoft\\.rdc\\.macos$",
+                                          "^com\\.linear$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -4939,6 +4957,22 @@
                             }
                         ]
                     },
+                  {
+                    "description": "F7 to open Linear",
+                    "manipulators": [
+                      {
+                        "from": {
+                          "key_code": "f7"
+                        },
+                        "to": [
+                          {
+                            "shell_command": "open -a Linear"
+                          }
+                        ],
+                        "type": "basic"
+                      }
+                    ]
+                  },
                     {
                         "description": "F9 to open Notion",
                         "manipulators": [
