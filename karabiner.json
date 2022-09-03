@@ -2,7 +2,8 @@
     "global": {
         "check_for_updates_on_startup": true,
         "show_in_menu_bar": true,
-        "show_profile_name_in_menu_bar": false
+        "show_profile_name_in_menu_bar": false,
+        "unsafe_ui": false
     },
     "profiles": [
         {
@@ -1550,7 +1551,7 @@
                                             "^org\\.macosforge\\.xquartz\\.X11$",
                                             "^org\\.macports\\.X11$",
                                             "^com\\.microsoft\\.rdc\\.macos$",
-                                          "^com\\.linear$"
+                                            "^com\\.linear$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -1669,7 +1670,8 @@
                                             "^com\\.apple\\.x11$",
                                             "^org\\.macosforge\\.xquartz\\.X11$",
                                             "^org\\.macports\\.X11$",
-                                            "^com\\.microsoft\\.rdc\\.macos$"
+                                            "^com\\.microsoft\\.rdc\\.macos$",
+                                            "^com\\.googlecode\\.iterm2$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -1730,7 +1732,8 @@
                                             "^com\\.apple\\.x11$",
                                             "^org\\.macosforge\\.xquartz\\.X11$",
                                             "^org\\.macports\\.X11$",
-                                            "^com\\.microsoft\\.rdc\\.macos$"
+                                            "^com\\.microsoft\\.rdc\\.macos$",
+                                            "^com\\.googlecode\\.iterm2$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -2198,7 +2201,7 @@
                         ]
                     },
                     {
-                        "description": "F3 to open WebStorm",
+                        "description": "F3 to open DataGrip",
                         "manipulators": [
                             {
                                 "from": {
@@ -2206,7 +2209,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a Webstorm"
+                                        "shell_command": "open -a DataGrip"
                                     }
                                 ],
                                 "type": "basic"
@@ -2214,7 +2217,7 @@
                         ]
                     },
                     {
-                        "description": "Control+F3 to open DataGrip",
+                        "description": "Control+F3 to open WebStorm",
                         "manipulators": [
                             {
                                 "from": {
@@ -2227,7 +2230,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a Datagrip"
+                                        "shell_command": "open -a WebStorm"
                                     }
                                 ],
                                 "type": "basic"
@@ -2303,22 +2306,43 @@
                             }
                         ]
                     },
-                  {
-                    "description": "F7 to open Linear",
-                    "manipulators": [
-                      {
-                        "from": {
-                          "key_code": "f7"
-                        },
-                        "to": [
-                          {
-                            "shell_command": "open -a Linear"
-                          }
-                        ],
-                        "type": "basic"
-                      }
-                    ]
-                  },
+                    {
+                        "description": "F7 to open Linear",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f7"
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a Linear"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Control+F7 to open Figma",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f7",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "control"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a Figma"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
                     {
                         "description": "F9 to open Notion",
                         "manipulators": [
@@ -2418,7 +2442,8 @@
                     },
                     "ignore": true,
                     "manipulate_caps_lock_led": true,
-                    "simple_modifications": []
+                    "simple_modifications": [],
+                    "treat_as_built_in_keyboard": false
                 },
                 {
                     "disable_built_in_keyboard_if_exists": false,
@@ -2431,7 +2456,50 @@
                     },
                     "ignore": false,
                     "manipulate_caps_lock_led": false,
-                    "simple_modifications": []
+                    "simple_modifications": [],
+                    "treat_as_built_in_keyboard": false
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 834,
+                        "vendor_id": 1452
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": true,
+                    "simple_modifications": [],
+                    "treat_as_built_in_keyboard": false
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": false,
+                        "is_pointing_device": true,
+                        "product_id": 834,
+                        "vendor_id": 1452
+                    },
+                    "ignore": true,
+                    "manipulate_caps_lock_led": false,
+                    "simple_modifications": [],
+                    "treat_as_built_in_keyboard": false
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": false,
+                        "is_pointing_device": true,
+                        "product_id": 7029,
+                        "vendor_id": 6940
+                    },
+                    "ignore": true,
+                    "manipulate_caps_lock_led": false,
+                    "simple_modifications": [],
+                    "treat_as_built_in_keyboard": false
                 }
             ],
             "fn_function_keys": [
@@ -2958,7 +3026,7 @@
                                             "^org\\.macosforge\\.xquartz\\.X11$",
                                             "^org\\.macports\\.X11$",
                                             "^com\\.microsoft\\.rdc\\.macos$",
-                                          "^com\\.linear$"
+                                            "^com\\.linear$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -3077,7 +3145,8 @@
                                             "^com\\.apple\\.x11$",
                                             "^org\\.macosforge\\.xquartz\\.X11$",
                                             "^org\\.macports\\.X11$",
-                                            "^com\\.microsoft\\.rdc\\.macos$"
+                                            "^com\\.microsoft\\.rdc\\.macos$",
+                                            "^com\\.googlecode\\.iterm2$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -3138,7 +3207,8 @@
                                             "^com\\.apple\\.x11$",
                                             "^org\\.macosforge\\.xquartz\\.X11$",
                                             "^org\\.macports\\.X11$",
-                                            "^com\\.microsoft\\.rdc\\.macos$"
+                                            "^com\\.microsoft\\.rdc\\.macos$",
+                                            "^com\\.googlecode\\.iterm2$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -4852,7 +4922,7 @@
                         ]
                     },
                     {
-                        "description": "F3 to open WebStorm",
+                        "description": "F3 to open Datagrip",
                         "manipulators": [
                             {
                                 "from": {
@@ -4860,7 +4930,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a Webstorm"
+                                        "shell_command": "open -a Datagrip"
                                     }
                                 ],
                                 "type": "basic"
@@ -4868,7 +4938,7 @@
                         ]
                     },
                     {
-                        "description": "Control+F3 to open DataGrip",
+                        "description": "Control+F3 to open WebStorm",
                         "manipulators": [
                             {
                                 "from": {
@@ -4881,7 +4951,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a Datagrip"
+                                        "shell_command": "open -a WebStorm"
                                     }
                                 ],
                                 "type": "basic"
@@ -4957,22 +5027,43 @@
                             }
                         ]
                     },
-                  {
-                    "description": "F7 to open Linear",
-                    "manipulators": [
-                      {
-                        "from": {
-                          "key_code": "f7"
-                        },
-                        "to": [
-                          {
-                            "shell_command": "open -a Linear"
-                          }
-                        ],
-                        "type": "basic"
-                      }
-                    ]
-                  },
+                    {
+                        "description": "F7 to open Linear",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f7"
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a Linear"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Control+F7 to open Figma",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f7",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "control"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a Figma"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
                     {
                         "description": "F9 to open Notion",
                         "manipulators": [
@@ -5060,7 +5151,64 @@
                     }
                 ]
             },
-            "devices": [],
+            "devices": [
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 7,
+                        "vendor_id": 1523
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": true,
+                    "simple_modifications": [],
+                    "treat_as_built_in_keyboard": false
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 834,
+                        "vendor_id": 1452
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": true,
+                    "simple_modifications": [],
+                    "treat_as_built_in_keyboard": false
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": false,
+                        "is_pointing_device": true,
+                        "product_id": 834,
+                        "vendor_id": 1452
+                    },
+                    "ignore": true,
+                    "manipulate_caps_lock_led": false,
+                    "simple_modifications": [],
+                    "treat_as_built_in_keyboard": false
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": false,
+                        "is_pointing_device": true,
+                        "product_id": 7029,
+                        "vendor_id": 6940
+                    },
+                    "ignore": true,
+                    "manipulate_caps_lock_led": false,
+                    "simple_modifications": [],
+                    "treat_as_built_in_keyboard": false
+                }
+            ],
             "fn_function_keys": [
                 {
                     "from": {
