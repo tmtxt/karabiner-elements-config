@@ -4891,11 +4891,16 @@
                         ]
                     },
                     {
-                        "description": "F1 to open Google Chrome",
+                        "description": "Control+1 to open Google Chrome",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "f1"
+                                    "key_code": "1",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "control"
+                                        ]
+                                    }
                                 },
                                 "to": [
                                     {
@@ -4907,14 +4912,15 @@
                         ]
                     },
                     {
-                        "description": "Control+F1 to open Firefox",
+                        "description": "Control+Shift+1 to open Firefox",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "f1",
+                                    "key_code": "1",
                                     "modifiers": {
                                         "mandatory": [
-                                            "control"
+                                            "control",
+                                            "shift"
                                         ]
                                     }
                                 },
@@ -4928,11 +4934,16 @@
                         ]
                     },
                     {
-                        "description": "F2 to open Visual Studio Code",
+                        "description": "Control+2 to open Visual Studio Code",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "f2"
+                                    "key_code": "2",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "control"
+                                        ]
+                                    }
                                 },
                                 "to": [
                                     {
@@ -4944,14 +4955,15 @@
                         ]
                     },
                     {
-                        "description": "Control+F2 to open Emacs",
+                        "description": "Control+Shift+2 to open Emacs",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "f2",
+                                    "key_code": "2",
                                     "modifiers": {
                                         "mandatory": [
-                                            "control"
+                                            "control",
+                                            "shift"
                                         ]
                                     }
                                 },
@@ -4965,11 +4977,16 @@
                         ]
                     },
                     {
-                        "description": "F3 to open Datagrip",
+                        "description": "Control+3 to open Datagrip",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "f3"
+                                    "key_code": "3",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "control"
+                                        ]
+                                    }
                                 },
                                 "to": [
                                     {
@@ -4981,14 +4998,15 @@
                         ]
                     },
                     {
-                        "description": "Control+F3 to open WebStorm",
+                        "description": "Control+Shift+3 to open WebStorm",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "f3",
+                                    "key_code": "3",
                                     "modifiers": {
                                         "mandatory": [
-                                            "control"
+                                            "control",
+                                            "shift"
                                         ]
                                     }
                                 },
@@ -5002,11 +5020,16 @@
                         ]
                     },
                     {
-                        "description": "F4 to open Discord",
+                        "description": "Control+4 to open Discord",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "f4"
+                                    "key_code": "4",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "control"
+                                        ]
+                                    }
                                 },
                                 "to": [
                                     {
@@ -5018,14 +5041,15 @@
                         ]
                     },
                     {
-                        "description": "Control+F4 to open Messenger",
+                        "description": "Control+Shift+4 to open Messenger",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "f4",
+                                    "key_code": "4",
                                     "modifiers": {
                                         "mandatory": [
-                                            "control"
+                                            "control",
+                                            "shift"
                                         ]
                                     }
                                 },
@@ -5039,11 +5063,16 @@
                         ]
                     },
                     {
-                        "description": "F5 to open Terminal",
+                        "description": "Control+5 to open Terminal",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "f5"
+                                    "key_code": "5",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "control"
+                                        ]
+                                    }
                                 },
                                 "to": [
                                     {
@@ -5055,11 +5084,38 @@
                         ]
                     },
                     {
-                        "description": "F6 to open Music",
+                        "description": "Control+Shift+5 to open Postman",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "f6"
+                                    "key_code": "5",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "control",
+                                            "shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a Postman"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Control+6 to open Music",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "6",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "control"
+                                        ]
+                                    }
                                 },
                                 "to": [
                                     {
@@ -5071,11 +5127,16 @@
                         ]
                     },
                     {
-                        "description": "F7 to open Linear",
+                        "description": "Control+7 to open Linear",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "f7"
+                                    "key_code": "7",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "control"
+                                        ]
+                                    }
                                 },
                                 "to": [
                                     {
@@ -5087,14 +5148,15 @@
                         ]
                     },
                     {
-                        "description": "Control+F7 to open Figma",
+                        "description": "Control+Shift+7 to open Figma",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "f7",
+                                    "key_code": "7",
                                     "modifiers": {
                                         "mandatory": [
-                                            "control"
+                                            "control",
+                                            "shift"
                                         ]
                                     }
                                 },
@@ -5108,43 +5170,16 @@
                         ]
                     },
                     {
-                        "description": "F9 to open Notion",
+                        "description": "Control+8 to open Mail",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "f9"
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a Notion"
+                                    "key_code": "8",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "control"
+                                        ]
                                     }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "F10 to open Slack",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "f10"
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a Slack"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "F11 to open Mail",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "f11"
                                 },
                                 "to": [
                                     {
@@ -5156,27 +5191,11 @@
                         ]
                     },
                     {
-                        "description": "F12 to open Postman",
+                        "description": "Control+9 to open Notion",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "f12"
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a Postman"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Control+F12 to open Altair GraphQL Client",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "f12",
+                                    "key_code": "9",
                                     "modifiers": {
                                         "mandatory": [
                                             "control"
@@ -5185,7 +5204,28 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a \"Altair GraphQL Client\""
+                                        "shell_command": "open -a Notion"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Control+0 to open Slack",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "0",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "control"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a Slack"
                                     }
                                 ],
                                 "type": "basic"
