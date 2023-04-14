@@ -4727,14 +4727,16 @@
                         ]
                     },
                     {
-                        "description": "Shf+F11/F10 to volumn Up/Down",
+                        "description": "Ctl+Opt+Cmd =/- to volume Up/Down",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "f11",
+                                    "key_code": "equal_sign",
                                     "modifiers": {
                                         "mandatory": [
-                                            "shift"
+                                            "command",
+                                            "option",
+                                            "control"
                                         ]
                                     }
                                 },
@@ -4747,10 +4749,12 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "f10",
+                                    "key_code": "hyphen",
                                     "modifiers": {
                                         "mandatory": [
-                                            "shift"
+                                            "command",
+                                            "option",
+                                            "control"
                                         ]
                                     }
                                 },
@@ -4764,14 +4768,16 @@
                         ]
                     },
                     {
-                        "description": "Shf+F9 to Volume mute",
+                        "description": "Ctl+Opt+Cmd \\ to Volume mute",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "f9",
+                                    "key_code": "backslash",
                                     "modifiers": {
                                         "mandatory": [
-                                            "shift"
+                                            "command",
+                                            "option",
+                                            "control"
                                         ]
                                     }
                                 },
