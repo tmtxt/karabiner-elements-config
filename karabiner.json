@@ -2143,7 +2143,7 @@
                         ]
                     },
                     {
-                        "description": "Control+3 to open Datagrip",
+                        "description": "Control+3 to open WebStorm",
                         "manipulators": [
                             {
                                 "from": {
@@ -2156,7 +2156,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a Datagrip"
+                                        "shell_command": "open -a WebStorm"
                                     }
                                 ],
                                 "type": "basic"
@@ -2164,7 +2164,7 @@
                         ]
                     },
                     {
-                        "description": "Control+Shift+3 to open WebStorm",
+                        "description": "Control+Shift+3 to open Datagrip",
                         "manipulators": [
                             {
                                 "from": {
@@ -2178,7 +2178,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a WebStorm"
+                                        "shell_command": "open -a Datagrip"
                                     }
                                 ],
                                 "type": "basic"
@@ -2286,6 +2286,28 @@
                                 "to": [
                                     {
                                         "shell_command": "open -a Music"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Control+Shift+6 to open Youtube Music",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "6",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "control",
+                                            "shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a \"Youtube Music\""
                                     }
                                 ],
                                 "type": "basic"
@@ -4937,7 +4959,7 @@
                         ]
                     },
                     {
-                        "description": "Control+3 to open Datagrip",
+                        "description": "Control+3 to open WebStorm",
                         "manipulators": [
                             {
                                 "from": {
@@ -4950,7 +4972,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a Datagrip"
+                                        "shell_command": "open -a WebStorm"
                                     }
                                 ],
                                 "type": "basic"
@@ -4958,7 +4980,7 @@
                         ]
                     },
                     {
-                        "description": "Control+Shift+3 to open WebStorm",
+                        "description": "Control+Shift+3 to open Datagrip",
                         "manipulators": [
                             {
                                 "from": {
@@ -4972,7 +4994,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a WebStorm"
+                                        "shell_command": "open -a Datagrip"
                                     }
                                 ],
                                 "type": "basic"
@@ -5080,6 +5102,28 @@
                                 "to": [
                                     {
                                         "shell_command": "open -a Music"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Control+Shift+6 to open Youtube Music",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "6",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "control",
+                                            "shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a \"Youtube Music\""
                                     }
                                 ],
                                 "type": "basic"
