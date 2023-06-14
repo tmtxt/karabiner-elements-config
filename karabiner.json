@@ -2272,7 +2272,7 @@
                         ]
                     },
                     {
-                        "description": "Control+6 to open Music",
+                        "description": "Control+6 to open Youtube Music",
                         "manipulators": [
                             {
                                 "from": {
@@ -2285,7 +2285,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a Music"
+                                        "shell_command": "open -a \"Youtube Music\""
                                     }
                                 ],
                                 "type": "basic"
@@ -2293,7 +2293,7 @@
                         ]
                     },
                     {
-                        "description": "Control+Shift+6 to open Youtube Music",
+                        "description": "Control+Shift+6 to open Music",
                         "manipulators": [
                             {
                                 "from": {
@@ -2307,7 +2307,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a \"Youtube Music\""
+                                        "shell_command": "open -a Music"
                                     }
                                 ],
                                 "type": "basic"
@@ -5088,7 +5088,7 @@
                         ]
                     },
                     {
-                        "description": "Control+6 to open Music",
+                        "description": "Control+6 to open Youtube Music",
                         "manipulators": [
                             {
                                 "from": {
@@ -5101,7 +5101,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a Music"
+                                        "shell_command": "open -a \"Youtube Music\""
                                     }
                                 ],
                                 "type": "basic"
@@ -5109,7 +5109,7 @@
                         ]
                     },
                     {
-                        "description": "Control+Shift+6 to open Youtube Music",
+                        "description": "Control+Shift+6 to open Music",
                         "manipulators": [
                             {
                                 "from": {
@@ -5123,7 +5123,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a \"Youtube Music\""
+                                        "shell_command": "open -a Music"
                                     }
                                 ],
                                 "type": "basic"
