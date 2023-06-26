@@ -2057,7 +2057,7 @@
                         ]
                     },
                     {
-                        "description": "Control+1 to open Google Chrome",
+                        "description": "Application fast switch",
                         "manipulators": [
                             {
                                 "from": {
@@ -2074,34 +2074,7 @@
                                     }
                                 ],
                                 "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Control+Shift+1 to open Firefox",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "1",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "control",
-                                            "shift"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a Firefox"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Control+2 to open Visual Studio Code",
-                        "manipulators": [
+                            },
                             {
                                 "from": {
                                     "key_code": "2",
@@ -2117,12 +2090,7 @@
                                     }
                                 ],
                                 "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Control+Shift+2 to open Emacs",
-                        "manipulators": [
+                            },
                             {
                                 "from": {
                                     "key_code": "2",
@@ -2139,12 +2107,7 @@
                                     }
                                 ],
                                 "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Control+3 to open WebStorm",
-                        "manipulators": [
+                            },
                             {
                                 "from": {
                                     "key_code": "3",
@@ -2160,77 +2123,7 @@
                                     }
                                 ],
                                 "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Control+Shift+3 to open Datagrip",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "3",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "control",
-                                            "shift"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a Datagrip"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Control+4 to open Discord",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "4",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "control"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a Discord"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Control+Shift+4 to open Messenger",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "4",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "control",
-                                            "shift"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a Messenger"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Control+5 to open Terminal",
-                        "manipulators": [
+                            },
                             {
                                 "from": {
                                     "key_code": "5",
@@ -2246,12 +2139,7 @@
                                     }
                                 ],
                                 "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Control+Shift+5 to open Postman",
-                        "manipulators": [
+                            },
                             {
                                 "from": {
                                     "key_code": "5",
@@ -2268,140 +2156,7 @@
                                     }
                                 ],
                                 "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Control+6 to open Youtube Music",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "6",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "control"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a \"Youtube Music\""
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Control+Shift+6 to open Music",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "6",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "control",
-                                            "shift"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a Music"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Control+7 to open Linear",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "7",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "control"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a Linear"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Control+Shift+7 to open Figma",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "7",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "control",
-                                            "shift"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a Figma"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Control+8 to open Mail",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "8",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "control"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a Mail"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Control+9 to open Notion",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "9",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "control"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a Notion"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Control+0 to open Slack",
-                        "manipulators": [
+                            },
                             {
                                 "from": {
                                     "key_code": "0",
@@ -4873,7 +4628,7 @@
                         ]
                     },
                     {
-                        "description": "Control+1 to open Google Chrome",
+                        "description": "Application fast switch",
                         "manipulators": [
                             {
                                 "from": {
@@ -4890,34 +4645,7 @@
                                     }
                                 ],
                                 "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Control+Shift+1 to open Firefox",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "1",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "control",
-                                            "shift"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a Firefox"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Control+2 to open Visual Studio Code",
-                        "manipulators": [
+                            },
                             {
                                 "from": {
                                     "key_code": "2",
@@ -4933,12 +4661,7 @@
                                     }
                                 ],
                                 "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Control+Shift+2 to open Emacs",
-                        "manipulators": [
+                            },
                             {
                                 "from": {
                                     "key_code": "2",
@@ -4955,12 +4678,7 @@
                                     }
                                 ],
                                 "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Control+3 to open WebStorm",
-                        "manipulators": [
+                            },
                             {
                                 "from": {
                                     "key_code": "3",
@@ -4976,77 +4694,7 @@
                                     }
                                 ],
                                 "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Control+Shift+3 to open Datagrip",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "3",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "control",
-                                            "shift"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a Datagrip"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Control+4 to open Discord",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "4",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "control"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a Discord"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Control+Shift+4 to open Messenger",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "4",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "control",
-                                            "shift"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a Messenger"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Control+5 to open Terminal",
-                        "manipulators": [
+                            },
                             {
                                 "from": {
                                     "key_code": "5",
@@ -5062,12 +4710,7 @@
                                     }
                                 ],
                                 "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Control+Shift+5 to open Postman",
-                        "manipulators": [
+                            },
                             {
                                 "from": {
                                     "key_code": "5",
@@ -5084,140 +4727,7 @@
                                     }
                                 ],
                                 "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Control+6 to open Youtube Music",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "6",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "control"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a \"Youtube Music\""
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Control+Shift+6 to open Music",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "6",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "control",
-                                            "shift"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a Music"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Control+7 to open Linear",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "7",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "control"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a Linear"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Control+Shift+7 to open Figma",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "7",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "control",
-                                            "shift"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a Figma"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Control+8 to open Mail",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "8",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "control"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a Mail"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Control+9 to open Notion",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "9",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "control"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a Notion"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Control+0 to open Slack",
-                        "manipulators": [
+                            },
                             {
                                 "from": {
                                     "key_code": "0",
