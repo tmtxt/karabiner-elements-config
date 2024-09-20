@@ -1927,6 +1927,7 @@
                 }
             ],
             "name": "Internal Keyboard",
+            "selected": true,
             "simple_modifications": [
                 {
                     "from": { "key_code": "caps_lock" },
@@ -3893,7 +3894,6 @@
                 }
             ],
             "name": "Kinesis Advantage",
-            "selected": true,
             "simple_modifications": [
                 {
                     "from": { "key_code": "caps_lock" },
