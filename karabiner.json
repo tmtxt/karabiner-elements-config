@@ -1812,7 +1812,7 @@
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "1",
+                                    "key_code": "f1",
                                     "modifiers": { "mandatory": ["control"] }
                                 },
                                 "to": [{ "shell_command": "open -a \"Google Chrome\"" }],
@@ -1820,15 +1820,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "1",
-                                    "modifiers": { "mandatory": ["control", "shift"] }
-                                },
-                                "to": [{ "shell_command": "open -a Firefox" }],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "2",
+                                    "key_code": "f2",
                                     "modifiers": { "mandatory": ["control"] }
                                 },
                                 "to": [{ "shell_command": "open -a \"Visual Studio Code\"" }],
@@ -1836,7 +1828,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "2",
+                                    "key_code": "f2",
                                     "modifiers": { "mandatory": ["control", "shift"] }
                                 },
                                 "to": [{ "shell_command": "open -a Emacs" }],
@@ -1844,7 +1836,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "3",
+                                    "key_code": "f3",
                                     "modifiers": { "mandatory": ["control"] }
                                 },
                                 "to": [{ "shell_command": "open -a DataGrip" }],
@@ -1852,7 +1844,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "5",
+                                    "key_code": "f5",
                                     "modifiers": { "mandatory": ["control"] }
                                 },
                                 "to": [{ "shell_command": "open -a iTerm" }],
@@ -1860,7 +1852,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "5",
+                                    "key_code": "f5",
                                     "modifiers": { "mandatory": ["control", "shift"] }
                                 },
                                 "to": [{ "shell_command": "open -a Postman" }],
@@ -1868,18 +1860,10 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "6",
+                                    "key_code": "f6",
                                     "modifiers": { "mandatory": ["control"] }
                                 },
                                 "to": [{ "shell_command": "open -a Music" }],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "0",
-                                    "modifiers": { "mandatory": ["control"] }
-                                },
-                                "to": [{ "shell_command": "open -a Slack" }],
                                 "type": "basic"
                             }
                         ]
@@ -3797,7 +3781,7 @@
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "1",
+                                    "key_code": "f1",
                                     "modifiers": { "mandatory": ["control"] }
                                 },
                                 "to": [{ "shell_command": "open -a \"Google Chrome\"" }],
@@ -3805,15 +3789,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "1",
-                                    "modifiers": { "mandatory": ["control", "shift"] }
-                                },
-                                "to": [{ "shell_command": "open -a Firefox" }],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "2",
+                                    "key_code": "f2",
                                     "modifiers": { "mandatory": ["control"] }
                                 },
                                 "to": [{ "shell_command": "open -a \"Visual Studio Code\"" }],
@@ -3821,7 +3797,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "2",
+                                    "key_code": "f2",
                                     "modifiers": { "mandatory": ["control", "shift"] }
                                 },
                                 "to": [{ "shell_command": "open -a Emacs" }],
@@ -3829,7 +3805,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "3",
+                                    "key_code": "f3",
                                     "modifiers": { "mandatory": ["control"] }
                                 },
                                 "to": [{ "shell_command": "open -a DataGrip" }],
@@ -3837,7 +3813,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "5",
+                                    "key_code": "f5",
                                     "modifiers": { "mandatory": ["control"] }
                                 },
                                 "to": [{ "shell_command": "open -a iTerm" }],
@@ -3845,7 +3821,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "5",
+                                    "key_code": "f5",
                                     "modifiers": { "mandatory": ["control", "shift"] }
                                 },
                                 "to": [{ "shell_command": "open -a Postman" }],
@@ -3853,18 +3829,10 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "6",
+                                    "key_code": "f6",
                                     "modifiers": { "mandatory": ["control"] }
                                 },
                                 "to": [{ "shell_command": "open -a Music" }],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "0",
-                                    "modifiers": { "mandatory": ["control"] }
-                                },
-                                "to": [{ "shell_command": "open -a Slack" }],
                                 "type": "basic"
                             }
                         ]
