@@ -112,119 +112,6 @@
                         ]
                     },
                     {
-                        "description": "Opt+Z and Ctl+Z to Undo",
-                        "manipulators": [
-                            {
-                                "conditions": [
-                                    {
-                                        "bundle_identifiers": [
-                                            "^org\\.gnu\\.Emacs$",
-                                            "^org\\.gnu\\.AquamacsEmacs$",
-                                            "^org\\.gnu\\.Aquamacs$",
-                                            "^com\\.microsoft\\.rdc$",
-                                            "^com\\.microsoft\\.rdc\\.mac$",
-                                            "^com\\.microsoft\\.rdc\\.osx\\.beta$",
-                                            "^net\\.sf\\.cord$",
-                                            "^com\\.thinomenon\\.RemoteDesktopConnection$",
-                                            "^com\\.itap-mobile\\.qmote$",
-                                            "^com\\.nulana\\.remotixmac$",
-                                            "^com\\.p5sys\\.jump\\.mac\\.viewer$",
-                                            "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
-                                            "^com\\.teamviewer\\.TeamViewer$",
-                                            "^com\\.vmware\\.horizon$",
-                                            "^com\\.2X\\.Client\\.Mac$",
-                                            "^com\\.apple\\.Terminal$",
-                                            "^com\\.googlecode\\.iterm2$",
-                                            "^co\\.zeit\\.hyperterm$",
-                                            "^co\\.zeit\\.hyper$",
-                                            "^org\\.vim\\.",
-                                            "^com\\.vmware\\.fusion$",
-                                            "^com\\.vmware\\.horizon$",
-                                            "^com\\.vmware\\.view$",
-                                            "^com\\.parallels\\.desktop$",
-                                            "^com\\.parallels\\.vm$",
-                                            "^com\\.parallels\\.desktop\\.console$",
-                                            "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                                            "^com\\.vmware\\.proxyApp\\.",
-                                            "^com\\.parallels\\.winapp\\.",
-                                            "^org\\.x\\.X11$",
-                                            "^com\\.apple\\.x11$",
-                                            "^org\\.macosforge\\.xquartz\\.X11$",
-                                            "^org\\.macports\\.X11$",
-                                            "^com\\.microsoft\\.rdc\\.macos$"
-                                        ],
-                                        "type": "frontmost_application_unless"
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "z",
-                                    "modifiers": { "mandatory": ["option"] }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "z",
-                                        "modifiers": ["command"]
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "bundle_identifiers": [
-                                            "^org\\.gnu\\.Emacs$",
-                                            "^org\\.gnu\\.AquamacsEmacs$",
-                                            "^org\\.gnu\\.Aquamacs$",
-                                            "^com\\.microsoft\\.rdc$",
-                                            "^com\\.microsoft\\.rdc\\.mac$",
-                                            "^com\\.microsoft\\.rdc\\.osx\\.beta$",
-                                            "^net\\.sf\\.cord$",
-                                            "^com\\.thinomenon\\.RemoteDesktopConnection$",
-                                            "^com\\.itap-mobile\\.qmote$",
-                                            "^com\\.nulana\\.remotixmac$",
-                                            "^com\\.p5sys\\.jump\\.mac\\.viewer$",
-                                            "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
-                                            "^com\\.teamviewer\\.TeamViewer$",
-                                            "^com\\.vmware\\.horizon$",
-                                            "^com\\.2X\\.Client\\.Mac$",
-                                            "^com\\.apple\\.Terminal$",
-                                            "^com\\.googlecode\\.iterm2$",
-                                            "^co\\.zeit\\.hyperterm$",
-                                            "^co\\.zeit\\.hyper$",
-                                            "^org\\.vim\\.",
-                                            "^com\\.vmware\\.fusion$",
-                                            "^com\\.vmware\\.horizon$",
-                                            "^com\\.vmware\\.view$",
-                                            "^com\\.parallels\\.desktop$",
-                                            "^com\\.parallels\\.vm$",
-                                            "^com\\.parallels\\.desktop\\.console$",
-                                            "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                                            "^com\\.vmware\\.proxyApp\\.",
-                                            "^com\\.parallels\\.winapp\\.",
-                                            "^org\\.x\\.X11$",
-                                            "^com\\.apple\\.x11$",
-                                            "^org\\.macosforge\\.xquartz\\.X11$",
-                                            "^org\\.macports\\.X11$",
-                                            "^com\\.microsoft\\.rdc\\.macos$"
-                                        ],
-                                        "type": "frontmost_application_unless"
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "z",
-                                    "modifiers": { "mandatory": ["control"] }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "z",
-                                        "modifiers": ["command"]
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "description": "Opt+Shf+K/I to Pagedown/Pageup",
                         "manipulators": [
                             {
@@ -1233,58 +1120,8 @@
                         ]
                     },
                     {
-                        "description": "Ctl+M and Opt+M to Return",
+                        "description": "Opt+M to Return",
                         "manipulators": [
-                            {
-                                "conditions": [
-                                    {
-                                        "bundle_identifiers": [
-                                            "^org\\.gnu\\.Emacs$",
-                                            "^org\\.gnu\\.AquamacsEmacs$",
-                                            "^org\\.gnu\\.Aquamacs$",
-                                            "^org\\.pqrs\\.unknownapp.conkeror$",
-                                            "^com\\.microsoft\\.rdc$",
-                                            "^com\\.microsoft\\.rdc\\.mac$",
-                                            "^com\\.microsoft\\.rdc\\.osx\\.beta$",
-                                            "^net\\.sf\\.cord$",
-                                            "^com\\.thinomenon\\.RemoteDesktopConnection$",
-                                            "^com\\.itap-mobile\\.qmote$",
-                                            "^com\\.nulana\\.remotixmac$",
-                                            "^com\\.p5sys\\.jump\\.mac\\.viewer$",
-                                            "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
-                                            "^com\\.teamviewer\\.TeamViewer$",
-                                            "^com\\.vmware\\.horizon$",
-                                            "^com\\.2X\\.Client\\.Mac$",
-                                            "^com\\.apple\\.Terminal$",
-                                            "^co\\.zeit\\.hyperterm$",
-                                            "^co\\.zeit\\.hyper$",
-                                            "^org\\.vim\\.",
-                                            "^com\\.vmware\\.fusion$",
-                                            "^com\\.vmware\\.horizon$",
-                                            "^com\\.vmware\\.view$",
-                                            "^com\\.parallels\\.desktop$",
-                                            "^com\\.parallels\\.vm$",
-                                            "^com\\.parallels\\.desktop\\.console$",
-                                            "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                                            "^com\\.vmware\\.proxyApp\\.",
-                                            "^com\\.parallels\\.winapp\\.",
-                                            "^org\\.x\\.X11$",
-                                            "^com\\.apple\\.x11$",
-                                            "^org\\.macosforge\\.xquartz\\.X11$",
-                                            "^org\\.macports\\.X11$",
-                                            "^com\\.microsoft\\.rdc\\.macos$",
-                                            "^com\\.linear$"
-                                        ],
-                                        "type": "frontmost_application_unless"
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "m",
-                                    "modifiers": { "mandatory": ["control"] }
-                                },
-                                "to": [{ "key_code": "return_or_enter" }],
-                                "type": "basic"
-                            },
                             {
                                 "conditions": [
                                     {
@@ -1337,7 +1174,7 @@
                         ]
                     },
                     {
-                        "description": "Opt+C/X/V to Copy/Cut/Paste",
+                        "description": "Opt/Ctl+Z/X/C/V to Undo/Copy/Cut/Paste",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -1383,12 +1220,67 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "c",
+                                    "key_code": "z",
                                     "modifiers": { "mandatory": ["option"] }
                                 },
                                 "to": [
                                     {
-                                        "key_code": "c",
+                                        "key_code": "z",
+                                        "modifiers": ["command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^org\\.gnu\\.Emacs$",
+                                            "^org\\.gnu\\.AquamacsEmacs$",
+                                            "^org\\.gnu\\.Aquamacs$",
+                                            "^org\\.pqrs\\.unknownapp.conkeror$",
+                                            "^com\\.microsoft\\.rdc$",
+                                            "^com\\.microsoft\\.rdc\\.mac$",
+                                            "^com\\.microsoft\\.rdc\\.osx\\.beta$",
+                                            "^net\\.sf\\.cord$",
+                                            "^com\\.thinomenon\\.RemoteDesktopConnection$",
+                                            "^com\\.itap-mobile\\.qmote$",
+                                            "^com\\.nulana\\.remotixmac$",
+                                            "^com\\.p5sys\\.jump\\.mac\\.viewer$",
+                                            "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                                            "^com\\.teamviewer\\.TeamViewer$",
+                                            "^com\\.vmware\\.horizon$",
+                                            "^com\\.2X\\.Client\\.Mac$",
+                                            "^com\\.apple\\.Terminal$",
+                                            "^co\\.zeit\\.hyperterm$",
+                                            "^co\\.zeit\\.hyper$",
+                                            "^org\\.vim\\.",
+                                            "^com\\.vmware\\.fusion$",
+                                            "^com\\.vmware\\.horizon$",
+                                            "^com\\.vmware\\.view$",
+                                            "^com\\.parallels\\.desktop$",
+                                            "^com\\.parallels\\.vm$",
+                                            "^com\\.parallels\\.desktop\\.console$",
+                                            "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                                            "^com\\.vmware\\.proxyApp\\.",
+                                            "^com\\.parallels\\.winapp\\.",
+                                            "^org\\.x\\.X11$",
+                                            "^com\\.apple\\.x11$",
+                                            "^org\\.macosforge\\.xquartz\\.X11$",
+                                            "^org\\.macports\\.X11$",
+                                            "^com\\.microsoft\\.rdc\\.macos$",
+                                            "^com\\.googlecode\\.iterm2$"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "z",
+                                    "modifiers": { "mandatory": ["control"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "z",
                                         "modifiers": ["command"]
                                     }
                                 ],
@@ -1483,6 +1375,172 @@
                                             "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                                             "^com\\.vmware\\.proxyApp\\.",
                                             "^com\\.parallels\\.winapp\\.",
+                                            "^com\\.microsoft\\.VSCode$",
+                                            "^org\\.x\\.X11$",
+                                            "^com\\.apple\\.x11$",
+                                            "^org\\.macosforge\\.xquartz\\.X11$",
+                                            "^org\\.macports\\.X11$",
+                                            "^com\\.microsoft\\.rdc\\.macos$",
+                                            "^com\\.googlecode\\.iterm2$"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "x",
+                                    "modifiers": { "mandatory": ["control"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "x",
+                                        "modifiers": ["command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^org\\.gnu\\.Emacs$",
+                                            "^org\\.gnu\\.AquamacsEmacs$",
+                                            "^org\\.gnu\\.Aquamacs$",
+                                            "^org\\.pqrs\\.unknownapp.conkeror$",
+                                            "^com\\.microsoft\\.rdc$",
+                                            "^com\\.microsoft\\.rdc\\.mac$",
+                                            "^com\\.microsoft\\.rdc\\.osx\\.beta$",
+                                            "^net\\.sf\\.cord$",
+                                            "^com\\.thinomenon\\.RemoteDesktopConnection$",
+                                            "^com\\.itap-mobile\\.qmote$",
+                                            "^com\\.nulana\\.remotixmac$",
+                                            "^com\\.p5sys\\.jump\\.mac\\.viewer$",
+                                            "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                                            "^com\\.teamviewer\\.TeamViewer$",
+                                            "^com\\.vmware\\.horizon$",
+                                            "^com\\.2X\\.Client\\.Mac$",
+                                            "^com\\.apple\\.Terminal$",
+                                            "^co\\.zeit\\.hyperterm$",
+                                            "^co\\.zeit\\.hyper$",
+                                            "^org\\.vim\\.",
+                                            "^com\\.vmware\\.fusion$",
+                                            "^com\\.vmware\\.horizon$",
+                                            "^com\\.vmware\\.view$",
+                                            "^com\\.parallels\\.desktop$",
+                                            "^com\\.parallels\\.vm$",
+                                            "^com\\.parallels\\.desktop\\.console$",
+                                            "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                                            "^com\\.vmware\\.proxyApp\\.",
+                                            "^com\\.parallels\\.winapp\\.",
+                                            "^org\\.x\\.X11$",
+                                            "^com\\.apple\\.x11$",
+                                            "^org\\.macosforge\\.xquartz\\.X11$",
+                                            "^org\\.macports\\.X11$",
+                                            "^com\\.microsoft\\.rdc\\.macos$",
+                                            "^com\\.googlecode\\.iterm2$"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "c",
+                                    "modifiers": { "mandatory": ["option"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "c",
+                                        "modifiers": ["command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^org\\.gnu\\.Emacs$",
+                                            "^org\\.gnu\\.AquamacsEmacs$",
+                                            "^org\\.gnu\\.Aquamacs$",
+                                            "^org\\.pqrs\\.unknownapp.conkeror$",
+                                            "^com\\.microsoft\\.rdc$",
+                                            "^com\\.microsoft\\.rdc\\.mac$",
+                                            "^com\\.microsoft\\.rdc\\.osx\\.beta$",
+                                            "^net\\.sf\\.cord$",
+                                            "^com\\.thinomenon\\.RemoteDesktopConnection$",
+                                            "^com\\.itap-mobile\\.qmote$",
+                                            "^com\\.nulana\\.remotixmac$",
+                                            "^com\\.p5sys\\.jump\\.mac\\.viewer$",
+                                            "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                                            "^com\\.teamviewer\\.TeamViewer$",
+                                            "^com\\.vmware\\.horizon$",
+                                            "^com\\.2X\\.Client\\.Mac$",
+                                            "^com\\.apple\\.Terminal$",
+                                            "^co\\.zeit\\.hyperterm$",
+                                            "^co\\.zeit\\.hyper$",
+                                            "^org\\.vim\\.",
+                                            "^com\\.vmware\\.fusion$",
+                                            "^com\\.vmware\\.horizon$",
+                                            "^com\\.vmware\\.view$",
+                                            "^com\\.parallels\\.desktop$",
+                                            "^com\\.parallels\\.vm$",
+                                            "^com\\.parallels\\.desktop\\.console$",
+                                            "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                                            "^com\\.vmware\\.proxyApp\\.",
+                                            "^com\\.parallels\\.winapp\\.",
+                                            "^org\\.x\\.X11$",
+                                            "^com\\.apple\\.x11$",
+                                            "^org\\.macosforge\\.xquartz\\.X11$",
+                                            "^org\\.macports\\.X11$",
+                                            "^com\\.microsoft\\.rdc\\.macos$",
+                                            "^com\\.googlecode\\.iterm2$"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "c",
+                                    "modifiers": { "mandatory": ["control"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "c",
+                                        "modifiers": ["command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^org\\.gnu\\.Emacs$",
+                                            "^org\\.gnu\\.AquamacsEmacs$",
+                                            "^org\\.gnu\\.Aquamacs$",
+                                            "^org\\.pqrs\\.unknownapp.conkeror$",
+                                            "^com\\.microsoft\\.rdc$",
+                                            "^com\\.microsoft\\.rdc\\.mac$",
+                                            "^com\\.microsoft\\.rdc\\.osx\\.beta$",
+                                            "^net\\.sf\\.cord$",
+                                            "^com\\.thinomenon\\.RemoteDesktopConnection$",
+                                            "^com\\.itap-mobile\\.qmote$",
+                                            "^com\\.nulana\\.remotixmac$",
+                                            "^com\\.p5sys\\.jump\\.mac\\.viewer$",
+                                            "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                                            "^com\\.teamviewer\\.TeamViewer$",
+                                            "^com\\.vmware\\.horizon$",
+                                            "^com\\.2X\\.Client\\.Mac$",
+                                            "^com\\.apple\\.Terminal$",
+                                            "^co\\.zeit\\.hyperterm$",
+                                            "^co\\.zeit\\.hyper$",
+                                            "^org\\.vim\\.",
+                                            "^com\\.vmware\\.fusion$",
+                                            "^com\\.vmware\\.horizon$",
+                                            "^com\\.vmware\\.view$",
+                                            "^com\\.parallels\\.desktop$",
+                                            "^com\\.parallels\\.vm$",
+                                            "^com\\.parallels\\.desktop\\.console$",
+                                            "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                                            "^com\\.vmware\\.proxyApp\\.",
+                                            "^com\\.parallels\\.winapp\\.",
                                             "^org\\.x\\.X11$",
                                             "^com\\.apple\\.x11$",
                                             "^org\\.macosforge\\.xquartz\\.X11$",
@@ -1495,6 +1553,60 @@
                                 "from": {
                                     "key_code": "v",
                                     "modifiers": { "mandatory": ["option"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "v",
+                                        "modifiers": ["command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^org\\.gnu\\.Emacs$",
+                                            "^org\\.gnu\\.AquamacsEmacs$",
+                                            "^org\\.gnu\\.Aquamacs$",
+                                            "^org\\.pqrs\\.unknownapp.conkeror$",
+                                            "^com\\.microsoft\\.rdc$",
+                                            "^com\\.microsoft\\.rdc\\.mac$",
+                                            "^com\\.microsoft\\.rdc\\.osx\\.beta$",
+                                            "^net\\.sf\\.cord$",
+                                            "^com\\.thinomenon\\.RemoteDesktopConnection$",
+                                            "^com\\.itap-mobile\\.qmote$",
+                                            "^com\\.nulana\\.remotixmac$",
+                                            "^com\\.p5sys\\.jump\\.mac\\.viewer$",
+                                            "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                                            "^com\\.teamviewer\\.TeamViewer$",
+                                            "^com\\.vmware\\.horizon$",
+                                            "^com\\.2X\\.Client\\.Mac$",
+                                            "^com\\.apple\\.Terminal$",
+                                            "^co\\.zeit\\.hyperterm$",
+                                            "^co\\.zeit\\.hyper$",
+                                            "^org\\.vim\\.",
+                                            "^com\\.vmware\\.fusion$",
+                                            "^com\\.vmware\\.horizon$",
+                                            "^com\\.vmware\\.view$",
+                                            "^com\\.parallels\\.desktop$",
+                                            "^com\\.parallels\\.vm$",
+                                            "^com\\.parallels\\.desktop\\.console$",
+                                            "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                                            "^com\\.vmware\\.proxyApp\\.",
+                                            "^com\\.parallels\\.winapp\\.",
+                                            "^org\\.x\\.X11$",
+                                            "^com\\.apple\\.x11$",
+                                            "^org\\.macosforge\\.xquartz\\.X11$",
+                                            "^org\\.macports\\.X11$",
+                                            "^com\\.microsoft\\.rdc\\.macos$"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "v",
+                                    "modifiers": { "mandatory": ["control"] }
                                 },
                                 "to": [
                                     {
@@ -1978,119 +2090,6 @@
                                     {
                                         "key_code": "delete_forward",
                                         "modifiers": ["option"]
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Opt+Z and Ctl+Z to Undo",
-                        "manipulators": [
-                            {
-                                "conditions": [
-                                    {
-                                        "bundle_identifiers": [
-                                            "^org\\.gnu\\.Emacs$",
-                                            "^org\\.gnu\\.AquamacsEmacs$",
-                                            "^org\\.gnu\\.Aquamacs$",
-                                            "^com\\.microsoft\\.rdc$",
-                                            "^com\\.microsoft\\.rdc\\.mac$",
-                                            "^com\\.microsoft\\.rdc\\.osx\\.beta$",
-                                            "^net\\.sf\\.cord$",
-                                            "^com\\.thinomenon\\.RemoteDesktopConnection$",
-                                            "^com\\.itap-mobile\\.qmote$",
-                                            "^com\\.nulana\\.remotixmac$",
-                                            "^com\\.p5sys\\.jump\\.mac\\.viewer$",
-                                            "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
-                                            "^com\\.teamviewer\\.TeamViewer$",
-                                            "^com\\.vmware\\.horizon$",
-                                            "^com\\.2X\\.Client\\.Mac$",
-                                            "^com\\.apple\\.Terminal$",
-                                            "^com\\.googlecode\\.iterm2$",
-                                            "^co\\.zeit\\.hyperterm$",
-                                            "^co\\.zeit\\.hyper$",
-                                            "^org\\.vim\\.",
-                                            "^com\\.vmware\\.fusion$",
-                                            "^com\\.vmware\\.horizon$",
-                                            "^com\\.vmware\\.view$",
-                                            "^com\\.parallels\\.desktop$",
-                                            "^com\\.parallels\\.vm$",
-                                            "^com\\.parallels\\.desktop\\.console$",
-                                            "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                                            "^com\\.vmware\\.proxyApp\\.",
-                                            "^com\\.parallels\\.winapp\\.",
-                                            "^org\\.x\\.X11$",
-                                            "^com\\.apple\\.x11$",
-                                            "^org\\.macosforge\\.xquartz\\.X11$",
-                                            "^org\\.macports\\.X11$",
-                                            "^com\\.microsoft\\.rdc\\.macos$"
-                                        ],
-                                        "type": "frontmost_application_unless"
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "z",
-                                    "modifiers": { "mandatory": ["option"] }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "z",
-                                        "modifiers": ["command"]
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "bundle_identifiers": [
-                                            "^org\\.gnu\\.Emacs$",
-                                            "^org\\.gnu\\.AquamacsEmacs$",
-                                            "^org\\.gnu\\.Aquamacs$",
-                                            "^com\\.microsoft\\.rdc$",
-                                            "^com\\.microsoft\\.rdc\\.mac$",
-                                            "^com\\.microsoft\\.rdc\\.osx\\.beta$",
-                                            "^net\\.sf\\.cord$",
-                                            "^com\\.thinomenon\\.RemoteDesktopConnection$",
-                                            "^com\\.itap-mobile\\.qmote$",
-                                            "^com\\.nulana\\.remotixmac$",
-                                            "^com\\.p5sys\\.jump\\.mac\\.viewer$",
-                                            "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
-                                            "^com\\.teamviewer\\.TeamViewer$",
-                                            "^com\\.vmware\\.horizon$",
-                                            "^com\\.2X\\.Client\\.Mac$",
-                                            "^com\\.apple\\.Terminal$",
-                                            "^com\\.googlecode\\.iterm2$",
-                                            "^co\\.zeit\\.hyperterm$",
-                                            "^co\\.zeit\\.hyper$",
-                                            "^org\\.vim\\.",
-                                            "^com\\.vmware\\.fusion$",
-                                            "^com\\.vmware\\.horizon$",
-                                            "^com\\.vmware\\.view$",
-                                            "^com\\.parallels\\.desktop$",
-                                            "^com\\.parallels\\.vm$",
-                                            "^com\\.parallels\\.desktop\\.console$",
-                                            "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                                            "^com\\.vmware\\.proxyApp\\.",
-                                            "^com\\.parallels\\.winapp\\.",
-                                            "^org\\.x\\.X11$",
-                                            "^com\\.apple\\.x11$",
-                                            "^org\\.macosforge\\.xquartz\\.X11$",
-                                            "^org\\.macports\\.X11$",
-                                            "^com\\.microsoft\\.rdc\\.macos$"
-                                        ],
-                                        "type": "frontmost_application_unless"
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "z",
-                                    "modifiers": { "mandatory": ["control"] }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "z",
-                                        "modifiers": ["command"]
                                     }
                                 ],
                                 "type": "basic"
@@ -3106,6 +3105,505 @@
                         ]
                     },
                     {
+                        "description": "Opt+M to Return",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^org\\.gnu\\.Emacs$",
+                                            "^org\\.gnu\\.AquamacsEmacs$",
+                                            "^org\\.gnu\\.Aquamacs$",
+                                            "^org\\.pqrs\\.unknownapp.conkeror$",
+                                            "^com\\.microsoft\\.rdc$",
+                                            "^com\\.microsoft\\.rdc\\.mac$",
+                                            "^com\\.microsoft\\.rdc\\.osx\\.beta$",
+                                            "^net\\.sf\\.cord$",
+                                            "^com\\.thinomenon\\.RemoteDesktopConnection$",
+                                            "^com\\.itap-mobile\\.qmote$",
+                                            "^com\\.nulana\\.remotixmac$",
+                                            "^com\\.p5sys\\.jump\\.mac\\.viewer$",
+                                            "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                                            "^com\\.teamviewer\\.TeamViewer$",
+                                            "^com\\.vmware\\.horizon$",
+                                            "^com\\.2X\\.Client\\.Mac$",
+                                            "^com\\.apple\\.Terminal$",
+                                            "^co\\.zeit\\.hyperterm$",
+                                            "^co\\.zeit\\.hyper$",
+                                            "^org\\.vim\\.",
+                                            "^com\\.vmware\\.fusion$",
+                                            "^com\\.vmware\\.horizon$",
+                                            "^com\\.vmware\\.view$",
+                                            "^com\\.parallels\\.desktop$",
+                                            "^com\\.parallels\\.vm$",
+                                            "^com\\.parallels\\.desktop\\.console$",
+                                            "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                                            "^com\\.vmware\\.proxyApp\\.",
+                                            "^com\\.parallels\\.winapp\\.",
+                                            "^org\\.x\\.X11$",
+                                            "^com\\.apple\\.x11$",
+                                            "^org\\.macosforge\\.xquartz\\.X11$",
+                                            "^org\\.macports\\.X11$",
+                                            "^com\\.microsoft\\.rdc\\.macos$"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "m",
+                                    "modifiers": { "mandatory": ["option"] }
+                                },
+                                "to": [{ "key_code": "return_or_enter" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Opt/Ctl+Z/X/C/V to Undo/Copy/Cut/Paste",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^org\\.gnu\\.Emacs$",
+                                            "^org\\.gnu\\.AquamacsEmacs$",
+                                            "^org\\.gnu\\.Aquamacs$",
+                                            "^org\\.pqrs\\.unknownapp.conkeror$",
+                                            "^com\\.microsoft\\.rdc$",
+                                            "^com\\.microsoft\\.rdc\\.mac$",
+                                            "^com\\.microsoft\\.rdc\\.osx\\.beta$",
+                                            "^net\\.sf\\.cord$",
+                                            "^com\\.thinomenon\\.RemoteDesktopConnection$",
+                                            "^com\\.itap-mobile\\.qmote$",
+                                            "^com\\.nulana\\.remotixmac$",
+                                            "^com\\.p5sys\\.jump\\.mac\\.viewer$",
+                                            "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                                            "^com\\.teamviewer\\.TeamViewer$",
+                                            "^com\\.vmware\\.horizon$",
+                                            "^com\\.2X\\.Client\\.Mac$",
+                                            "^com\\.apple\\.Terminal$",
+                                            "^co\\.zeit\\.hyperterm$",
+                                            "^co\\.zeit\\.hyper$",
+                                            "^org\\.vim\\.",
+                                            "^com\\.vmware\\.fusion$",
+                                            "^com\\.vmware\\.horizon$",
+                                            "^com\\.vmware\\.view$",
+                                            "^com\\.parallels\\.desktop$",
+                                            "^com\\.parallels\\.vm$",
+                                            "^com\\.parallels\\.desktop\\.console$",
+                                            "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                                            "^com\\.vmware\\.proxyApp\\.",
+                                            "^com\\.parallels\\.winapp\\.",
+                                            "^org\\.x\\.X11$",
+                                            "^com\\.apple\\.x11$",
+                                            "^org\\.macosforge\\.xquartz\\.X11$",
+                                            "^org\\.macports\\.X11$",
+                                            "^com\\.microsoft\\.rdc\\.macos$",
+                                            "^com\\.googlecode\\.iterm2$"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "z",
+                                    "modifiers": { "mandatory": ["option"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "z",
+                                        "modifiers": ["command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^org\\.gnu\\.Emacs$",
+                                            "^org\\.gnu\\.AquamacsEmacs$",
+                                            "^org\\.gnu\\.Aquamacs$",
+                                            "^org\\.pqrs\\.unknownapp.conkeror$",
+                                            "^com\\.microsoft\\.rdc$",
+                                            "^com\\.microsoft\\.rdc\\.mac$",
+                                            "^com\\.microsoft\\.rdc\\.osx\\.beta$",
+                                            "^net\\.sf\\.cord$",
+                                            "^com\\.thinomenon\\.RemoteDesktopConnection$",
+                                            "^com\\.itap-mobile\\.qmote$",
+                                            "^com\\.nulana\\.remotixmac$",
+                                            "^com\\.p5sys\\.jump\\.mac\\.viewer$",
+                                            "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                                            "^com\\.teamviewer\\.TeamViewer$",
+                                            "^com\\.vmware\\.horizon$",
+                                            "^com\\.2X\\.Client\\.Mac$",
+                                            "^com\\.apple\\.Terminal$",
+                                            "^co\\.zeit\\.hyperterm$",
+                                            "^co\\.zeit\\.hyper$",
+                                            "^org\\.vim\\.",
+                                            "^com\\.vmware\\.fusion$",
+                                            "^com\\.vmware\\.horizon$",
+                                            "^com\\.vmware\\.view$",
+                                            "^com\\.parallels\\.desktop$",
+                                            "^com\\.parallels\\.vm$",
+                                            "^com\\.parallels\\.desktop\\.console$",
+                                            "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                                            "^com\\.vmware\\.proxyApp\\.",
+                                            "^com\\.parallels\\.winapp\\.",
+                                            "^org\\.x\\.X11$",
+                                            "^com\\.apple\\.x11$",
+                                            "^org\\.macosforge\\.xquartz\\.X11$",
+                                            "^org\\.macports\\.X11$",
+                                            "^com\\.microsoft\\.rdc\\.macos$",
+                                            "^com\\.googlecode\\.iterm2$"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "z",
+                                    "modifiers": { "mandatory": ["control"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "z",
+                                        "modifiers": ["command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^org\\.gnu\\.Emacs$",
+                                            "^org\\.gnu\\.AquamacsEmacs$",
+                                            "^org\\.gnu\\.Aquamacs$",
+                                            "^org\\.pqrs\\.unknownapp.conkeror$",
+                                            "^com\\.microsoft\\.rdc$",
+                                            "^com\\.microsoft\\.rdc\\.mac$",
+                                            "^com\\.microsoft\\.rdc\\.osx\\.beta$",
+                                            "^net\\.sf\\.cord$",
+                                            "^com\\.thinomenon\\.RemoteDesktopConnection$",
+                                            "^com\\.itap-mobile\\.qmote$",
+                                            "^com\\.nulana\\.remotixmac$",
+                                            "^com\\.p5sys\\.jump\\.mac\\.viewer$",
+                                            "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                                            "^com\\.teamviewer\\.TeamViewer$",
+                                            "^com\\.vmware\\.horizon$",
+                                            "^com\\.2X\\.Client\\.Mac$",
+                                            "^com\\.apple\\.Terminal$",
+                                            "^co\\.zeit\\.hyperterm$",
+                                            "^co\\.zeit\\.hyper$",
+                                            "^org\\.vim\\.",
+                                            "^com\\.vmware\\.fusion$",
+                                            "^com\\.vmware\\.horizon$",
+                                            "^com\\.vmware\\.view$",
+                                            "^com\\.parallels\\.desktop$",
+                                            "^com\\.parallels\\.vm$",
+                                            "^com\\.parallels\\.desktop\\.console$",
+                                            "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                                            "^com\\.vmware\\.proxyApp\\.",
+                                            "^com\\.parallels\\.winapp\\.",
+                                            "^com\\.microsoft\\.VSCode$",
+                                            "^org\\.x\\.X11$",
+                                            "^com\\.apple\\.x11$",
+                                            "^org\\.macosforge\\.xquartz\\.X11$",
+                                            "^org\\.macports\\.X11$",
+                                            "^com\\.microsoft\\.rdc\\.macos$",
+                                            "^com\\.googlecode\\.iterm2$"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "x",
+                                    "modifiers": { "mandatory": ["option"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "x",
+                                        "modifiers": ["command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^org\\.gnu\\.Emacs$",
+                                            "^org\\.gnu\\.AquamacsEmacs$",
+                                            "^org\\.gnu\\.Aquamacs$",
+                                            "^org\\.pqrs\\.unknownapp.conkeror$",
+                                            "^com\\.microsoft\\.rdc$",
+                                            "^com\\.microsoft\\.rdc\\.mac$",
+                                            "^com\\.microsoft\\.rdc\\.osx\\.beta$",
+                                            "^net\\.sf\\.cord$",
+                                            "^com\\.thinomenon\\.RemoteDesktopConnection$",
+                                            "^com\\.itap-mobile\\.qmote$",
+                                            "^com\\.nulana\\.remotixmac$",
+                                            "^com\\.p5sys\\.jump\\.mac\\.viewer$",
+                                            "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                                            "^com\\.teamviewer\\.TeamViewer$",
+                                            "^com\\.vmware\\.horizon$",
+                                            "^com\\.2X\\.Client\\.Mac$",
+                                            "^com\\.apple\\.Terminal$",
+                                            "^co\\.zeit\\.hyperterm$",
+                                            "^co\\.zeit\\.hyper$",
+                                            "^org\\.vim\\.",
+                                            "^com\\.vmware\\.fusion$",
+                                            "^com\\.vmware\\.horizon$",
+                                            "^com\\.vmware\\.view$",
+                                            "^com\\.parallels\\.desktop$",
+                                            "^com\\.parallels\\.vm$",
+                                            "^com\\.parallels\\.desktop\\.console$",
+                                            "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                                            "^com\\.vmware\\.proxyApp\\.",
+                                            "^com\\.parallels\\.winapp\\.",
+                                            "^com\\.microsoft\\.VSCode$",
+                                            "^org\\.x\\.X11$",
+                                            "^com\\.apple\\.x11$",
+                                            "^org\\.macosforge\\.xquartz\\.X11$",
+                                            "^org\\.macports\\.X11$",
+                                            "^com\\.microsoft\\.rdc\\.macos$",
+                                            "^com\\.googlecode\\.iterm2$"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "x",
+                                    "modifiers": { "mandatory": ["control"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "x",
+                                        "modifiers": ["command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^org\\.gnu\\.Emacs$",
+                                            "^org\\.gnu\\.AquamacsEmacs$",
+                                            "^org\\.gnu\\.Aquamacs$",
+                                            "^org\\.pqrs\\.unknownapp.conkeror$",
+                                            "^com\\.microsoft\\.rdc$",
+                                            "^com\\.microsoft\\.rdc\\.mac$",
+                                            "^com\\.microsoft\\.rdc\\.osx\\.beta$",
+                                            "^net\\.sf\\.cord$",
+                                            "^com\\.thinomenon\\.RemoteDesktopConnection$",
+                                            "^com\\.itap-mobile\\.qmote$",
+                                            "^com\\.nulana\\.remotixmac$",
+                                            "^com\\.p5sys\\.jump\\.mac\\.viewer$",
+                                            "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                                            "^com\\.teamviewer\\.TeamViewer$",
+                                            "^com\\.vmware\\.horizon$",
+                                            "^com\\.2X\\.Client\\.Mac$",
+                                            "^com\\.apple\\.Terminal$",
+                                            "^co\\.zeit\\.hyperterm$",
+                                            "^co\\.zeit\\.hyper$",
+                                            "^org\\.vim\\.",
+                                            "^com\\.vmware\\.fusion$",
+                                            "^com\\.vmware\\.horizon$",
+                                            "^com\\.vmware\\.view$",
+                                            "^com\\.parallels\\.desktop$",
+                                            "^com\\.parallels\\.vm$",
+                                            "^com\\.parallels\\.desktop\\.console$",
+                                            "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                                            "^com\\.vmware\\.proxyApp\\.",
+                                            "^com\\.parallels\\.winapp\\.",
+                                            "^org\\.x\\.X11$",
+                                            "^com\\.apple\\.x11$",
+                                            "^org\\.macosforge\\.xquartz\\.X11$",
+                                            "^org\\.macports\\.X11$",
+                                            "^com\\.microsoft\\.rdc\\.macos$",
+                                            "^com\\.googlecode\\.iterm2$"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "c",
+                                    "modifiers": { "mandatory": ["option"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "c",
+                                        "modifiers": ["command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^org\\.gnu\\.Emacs$",
+                                            "^org\\.gnu\\.AquamacsEmacs$",
+                                            "^org\\.gnu\\.Aquamacs$",
+                                            "^org\\.pqrs\\.unknownapp.conkeror$",
+                                            "^com\\.microsoft\\.rdc$",
+                                            "^com\\.microsoft\\.rdc\\.mac$",
+                                            "^com\\.microsoft\\.rdc\\.osx\\.beta$",
+                                            "^net\\.sf\\.cord$",
+                                            "^com\\.thinomenon\\.RemoteDesktopConnection$",
+                                            "^com\\.itap-mobile\\.qmote$",
+                                            "^com\\.nulana\\.remotixmac$",
+                                            "^com\\.p5sys\\.jump\\.mac\\.viewer$",
+                                            "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                                            "^com\\.teamviewer\\.TeamViewer$",
+                                            "^com\\.vmware\\.horizon$",
+                                            "^com\\.2X\\.Client\\.Mac$",
+                                            "^com\\.apple\\.Terminal$",
+                                            "^co\\.zeit\\.hyperterm$",
+                                            "^co\\.zeit\\.hyper$",
+                                            "^org\\.vim\\.",
+                                            "^com\\.vmware\\.fusion$",
+                                            "^com\\.vmware\\.horizon$",
+                                            "^com\\.vmware\\.view$",
+                                            "^com\\.parallels\\.desktop$",
+                                            "^com\\.parallels\\.vm$",
+                                            "^com\\.parallels\\.desktop\\.console$",
+                                            "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                                            "^com\\.vmware\\.proxyApp\\.",
+                                            "^com\\.parallels\\.winapp\\.",
+                                            "^org\\.x\\.X11$",
+                                            "^com\\.apple\\.x11$",
+                                            "^org\\.macosforge\\.xquartz\\.X11$",
+                                            "^org\\.macports\\.X11$",
+                                            "^com\\.microsoft\\.rdc\\.macos$",
+                                            "^com\\.googlecode\\.iterm2$"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "c",
+                                    "modifiers": { "mandatory": ["control"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "c",
+                                        "modifiers": ["command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^org\\.gnu\\.Emacs$",
+                                            "^org\\.gnu\\.AquamacsEmacs$",
+                                            "^org\\.gnu\\.Aquamacs$",
+                                            "^org\\.pqrs\\.unknownapp.conkeror$",
+                                            "^com\\.microsoft\\.rdc$",
+                                            "^com\\.microsoft\\.rdc\\.mac$",
+                                            "^com\\.microsoft\\.rdc\\.osx\\.beta$",
+                                            "^net\\.sf\\.cord$",
+                                            "^com\\.thinomenon\\.RemoteDesktopConnection$",
+                                            "^com\\.itap-mobile\\.qmote$",
+                                            "^com\\.nulana\\.remotixmac$",
+                                            "^com\\.p5sys\\.jump\\.mac\\.viewer$",
+                                            "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                                            "^com\\.teamviewer\\.TeamViewer$",
+                                            "^com\\.vmware\\.horizon$",
+                                            "^com\\.2X\\.Client\\.Mac$",
+                                            "^com\\.apple\\.Terminal$",
+                                            "^co\\.zeit\\.hyperterm$",
+                                            "^co\\.zeit\\.hyper$",
+                                            "^org\\.vim\\.",
+                                            "^com\\.vmware\\.fusion$",
+                                            "^com\\.vmware\\.horizon$",
+                                            "^com\\.vmware\\.view$",
+                                            "^com\\.parallels\\.desktop$",
+                                            "^com\\.parallels\\.vm$",
+                                            "^com\\.parallels\\.desktop\\.console$",
+                                            "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                                            "^com\\.vmware\\.proxyApp\\.",
+                                            "^com\\.parallels\\.winapp\\.",
+                                            "^org\\.x\\.X11$",
+                                            "^com\\.apple\\.x11$",
+                                            "^org\\.macosforge\\.xquartz\\.X11$",
+                                            "^org\\.macports\\.X11$",
+                                            "^com\\.microsoft\\.rdc\\.macos$"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "v",
+                                    "modifiers": { "mandatory": ["option"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "v",
+                                        "modifiers": ["command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^org\\.gnu\\.Emacs$",
+                                            "^org\\.gnu\\.AquamacsEmacs$",
+                                            "^org\\.gnu\\.Aquamacs$",
+                                            "^org\\.pqrs\\.unknownapp.conkeror$",
+                                            "^com\\.microsoft\\.rdc$",
+                                            "^com\\.microsoft\\.rdc\\.mac$",
+                                            "^com\\.microsoft\\.rdc\\.osx\\.beta$",
+                                            "^net\\.sf\\.cord$",
+                                            "^com\\.thinomenon\\.RemoteDesktopConnection$",
+                                            "^com\\.itap-mobile\\.qmote$",
+                                            "^com\\.nulana\\.remotixmac$",
+                                            "^com\\.p5sys\\.jump\\.mac\\.viewer$",
+                                            "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                                            "^com\\.teamviewer\\.TeamViewer$",
+                                            "^com\\.vmware\\.horizon$",
+                                            "^com\\.2X\\.Client\\.Mac$",
+                                            "^com\\.apple\\.Terminal$",
+                                            "^co\\.zeit\\.hyperterm$",
+                                            "^co\\.zeit\\.hyper$",
+                                            "^org\\.vim\\.",
+                                            "^com\\.vmware\\.fusion$",
+                                            "^com\\.vmware\\.horizon$",
+                                            "^com\\.vmware\\.view$",
+                                            "^com\\.parallels\\.desktop$",
+                                            "^com\\.parallels\\.vm$",
+                                            "^com\\.parallels\\.desktop\\.console$",
+                                            "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                                            "^com\\.vmware\\.proxyApp\\.",
+                                            "^com\\.parallels\\.winapp\\.",
+                                            "^org\\.x\\.X11$",
+                                            "^com\\.apple\\.x11$",
+                                            "^org\\.macosforge\\.xquartz\\.X11$",
+                                            "^org\\.macports\\.X11$",
+                                            "^com\\.microsoft\\.rdc\\.macos$"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "v",
+                                    "modifiers": { "mandatory": ["control"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "v",
+                                        "modifiers": ["command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Opt+F to Backward delete, Opt+Shf+F to Opt+Backward delete",
                         "manipulators": [
                             {
@@ -3207,280 +3705,6 @@
                                     {
                                         "key_code": "delete_or_backspace",
                                         "modifiers": ["option"]
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Ctl+M and Opt+M to Return",
-                        "manipulators": [
-                            {
-                                "conditions": [
-                                    {
-                                        "bundle_identifiers": [
-                                            "^org\\.gnu\\.Emacs$",
-                                            "^org\\.gnu\\.AquamacsEmacs$",
-                                            "^org\\.gnu\\.Aquamacs$",
-                                            "^org\\.pqrs\\.unknownapp.conkeror$",
-                                            "^com\\.microsoft\\.rdc$",
-                                            "^com\\.microsoft\\.rdc\\.mac$",
-                                            "^com\\.microsoft\\.rdc\\.osx\\.beta$",
-                                            "^net\\.sf\\.cord$",
-                                            "^com\\.thinomenon\\.RemoteDesktopConnection$",
-                                            "^com\\.itap-mobile\\.qmote$",
-                                            "^com\\.nulana\\.remotixmac$",
-                                            "^com\\.p5sys\\.jump\\.mac\\.viewer$",
-                                            "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
-                                            "^com\\.teamviewer\\.TeamViewer$",
-                                            "^com\\.vmware\\.horizon$",
-                                            "^com\\.2X\\.Client\\.Mac$",
-                                            "^com\\.apple\\.Terminal$",
-                                            "^co\\.zeit\\.hyperterm$",
-                                            "^co\\.zeit\\.hyper$",
-                                            "^org\\.vim\\.",
-                                            "^com\\.vmware\\.fusion$",
-                                            "^com\\.vmware\\.horizon$",
-                                            "^com\\.vmware\\.view$",
-                                            "^com\\.parallels\\.desktop$",
-                                            "^com\\.parallels\\.vm$",
-                                            "^com\\.parallels\\.desktop\\.console$",
-                                            "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                                            "^com\\.vmware\\.proxyApp\\.",
-                                            "^com\\.parallels\\.winapp\\.",
-                                            "^org\\.x\\.X11$",
-                                            "^com\\.apple\\.x11$",
-                                            "^org\\.macosforge\\.xquartz\\.X11$",
-                                            "^org\\.macports\\.X11$",
-                                            "^com\\.microsoft\\.rdc\\.macos$",
-                                            "^com\\.linear$"
-                                        ],
-                                        "type": "frontmost_application_unless"
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "m",
-                                    "modifiers": { "mandatory": ["control"] }
-                                },
-                                "to": [{ "key_code": "return_or_enter" }],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "bundle_identifiers": [
-                                            "^org\\.gnu\\.Emacs$",
-                                            "^org\\.gnu\\.AquamacsEmacs$",
-                                            "^org\\.gnu\\.Aquamacs$",
-                                            "^org\\.pqrs\\.unknownapp.conkeror$",
-                                            "^com\\.microsoft\\.rdc$",
-                                            "^com\\.microsoft\\.rdc\\.mac$",
-                                            "^com\\.microsoft\\.rdc\\.osx\\.beta$",
-                                            "^net\\.sf\\.cord$",
-                                            "^com\\.thinomenon\\.RemoteDesktopConnection$",
-                                            "^com\\.itap-mobile\\.qmote$",
-                                            "^com\\.nulana\\.remotixmac$",
-                                            "^com\\.p5sys\\.jump\\.mac\\.viewer$",
-                                            "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
-                                            "^com\\.teamviewer\\.TeamViewer$",
-                                            "^com\\.vmware\\.horizon$",
-                                            "^com\\.2X\\.Client\\.Mac$",
-                                            "^com\\.apple\\.Terminal$",
-                                            "^co\\.zeit\\.hyperterm$",
-                                            "^co\\.zeit\\.hyper$",
-                                            "^org\\.vim\\.",
-                                            "^com\\.vmware\\.fusion$",
-                                            "^com\\.vmware\\.horizon$",
-                                            "^com\\.vmware\\.view$",
-                                            "^com\\.parallels\\.desktop$",
-                                            "^com\\.parallels\\.vm$",
-                                            "^com\\.parallels\\.desktop\\.console$",
-                                            "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                                            "^com\\.vmware\\.proxyApp\\.",
-                                            "^com\\.parallels\\.winapp\\.",
-                                            "^org\\.x\\.X11$",
-                                            "^com\\.apple\\.x11$",
-                                            "^org\\.macosforge\\.xquartz\\.X11$",
-                                            "^org\\.macports\\.X11$",
-                                            "^com\\.microsoft\\.rdc\\.macos$"
-                                        ],
-                                        "type": "frontmost_application_unless"
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "m",
-                                    "modifiers": { "mandatory": ["option"] }
-                                },
-                                "to": [{ "key_code": "return_or_enter" }],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Opt+C/X/V to Copy/Cut/Paste",
-                        "manipulators": [
-                            {
-                                "conditions": [
-                                    {
-                                        "bundle_identifiers": [
-                                            "^org\\.gnu\\.Emacs$",
-                                            "^org\\.gnu\\.AquamacsEmacs$",
-                                            "^org\\.gnu\\.Aquamacs$",
-                                            "^org\\.pqrs\\.unknownapp.conkeror$",
-                                            "^com\\.microsoft\\.rdc$",
-                                            "^com\\.microsoft\\.rdc\\.mac$",
-                                            "^com\\.microsoft\\.rdc\\.osx\\.beta$",
-                                            "^net\\.sf\\.cord$",
-                                            "^com\\.thinomenon\\.RemoteDesktopConnection$",
-                                            "^com\\.itap-mobile\\.qmote$",
-                                            "^com\\.nulana\\.remotixmac$",
-                                            "^com\\.p5sys\\.jump\\.mac\\.viewer$",
-                                            "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
-                                            "^com\\.teamviewer\\.TeamViewer$",
-                                            "^com\\.vmware\\.horizon$",
-                                            "^com\\.2X\\.Client\\.Mac$",
-                                            "^com\\.apple\\.Terminal$",
-                                            "^co\\.zeit\\.hyperterm$",
-                                            "^co\\.zeit\\.hyper$",
-                                            "^org\\.vim\\.",
-                                            "^com\\.vmware\\.fusion$",
-                                            "^com\\.vmware\\.horizon$",
-                                            "^com\\.vmware\\.view$",
-                                            "^com\\.parallels\\.desktop$",
-                                            "^com\\.parallels\\.vm$",
-                                            "^com\\.parallels\\.desktop\\.console$",
-                                            "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                                            "^com\\.vmware\\.proxyApp\\.",
-                                            "^com\\.parallels\\.winapp\\.",
-                                            "^org\\.x\\.X11$",
-                                            "^com\\.apple\\.x11$",
-                                            "^org\\.macosforge\\.xquartz\\.X11$",
-                                            "^org\\.macports\\.X11$",
-                                            "^com\\.microsoft\\.rdc\\.macos$",
-                                            "^com\\.googlecode\\.iterm2$"
-                                        ],
-                                        "type": "frontmost_application_unless"
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "c",
-                                    "modifiers": { "mandatory": ["option"] }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "c",
-                                        "modifiers": ["right_command"]
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "bundle_identifiers": [
-                                            "^org\\.gnu\\.Emacs$",
-                                            "^org\\.gnu\\.AquamacsEmacs$",
-                                            "^org\\.gnu\\.Aquamacs$",
-                                            "^org\\.pqrs\\.unknownapp.conkeror$",
-                                            "^com\\.microsoft\\.rdc$",
-                                            "^com\\.microsoft\\.rdc\\.mac$",
-                                            "^com\\.microsoft\\.rdc\\.osx\\.beta$",
-                                            "^net\\.sf\\.cord$",
-                                            "^com\\.thinomenon\\.RemoteDesktopConnection$",
-                                            "^com\\.itap-mobile\\.qmote$",
-                                            "^com\\.nulana\\.remotixmac$",
-                                            "^com\\.p5sys\\.jump\\.mac\\.viewer$",
-                                            "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
-                                            "^com\\.teamviewer\\.TeamViewer$",
-                                            "^com\\.vmware\\.horizon$",
-                                            "^com\\.2X\\.Client\\.Mac$",
-                                            "^com\\.apple\\.Terminal$",
-                                            "^co\\.zeit\\.hyperterm$",
-                                            "^co\\.zeit\\.hyper$",
-                                            "^org\\.vim\\.",
-                                            "^com\\.vmware\\.fusion$",
-                                            "^com\\.vmware\\.horizon$",
-                                            "^com\\.vmware\\.view$",
-                                            "^com\\.parallels\\.desktop$",
-                                            "^com\\.parallels\\.vm$",
-                                            "^com\\.microsoft\\.VSCode$",
-                                            "^com\\.parallels\\.desktop\\.console$",
-                                            "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                                            "^com\\.vmware\\.proxyApp\\.",
-                                            "^com\\.parallels\\.winapp\\.",
-                                            "^org\\.x\\.X11$",
-                                            "^com\\.apple\\.x11$",
-                                            "^org\\.macosforge\\.xquartz\\.X11$",
-                                            "^org\\.macports\\.X11$",
-                                            "^com\\.microsoft\\.rdc\\.macos$",
-                                            "^com\\.googlecode\\.iterm2$"
-                                        ],
-                                        "type": "frontmost_application_unless"
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "x",
-                                    "modifiers": { "mandatory": ["option"] }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "x",
-                                        "modifiers": ["right_command"]
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "bundle_identifiers": [
-                                            "^org\\.gnu\\.Emacs$",
-                                            "^org\\.gnu\\.AquamacsEmacs$",
-                                            "^org\\.gnu\\.Aquamacs$",
-                                            "^org\\.pqrs\\.unknownapp.conkeror$",
-                                            "^com\\.microsoft\\.rdc$",
-                                            "^com\\.microsoft\\.rdc\\.mac$",
-                                            "^com\\.microsoft\\.rdc\\.osx\\.beta$",
-                                            "^net\\.sf\\.cord$",
-                                            "^com\\.thinomenon\\.RemoteDesktopConnection$",
-                                            "^com\\.itap-mobile\\.qmote$",
-                                            "^com\\.nulana\\.remotixmac$",
-                                            "^com\\.p5sys\\.jump\\.mac\\.viewer$",
-                                            "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
-                                            "^com\\.teamviewer\\.TeamViewer$",
-                                            "^com\\.vmware\\.horizon$",
-                                            "^com\\.2X\\.Client\\.Mac$",
-                                            "^com\\.apple\\.Terminal$",
-                                            "^co\\.zeit\\.hyperterm$",
-                                            "^co\\.zeit\\.hyper$",
-                                            "^org\\.vim\\.",
-                                            "^com\\.vmware\\.fusion$",
-                                            "^com\\.vmware\\.horizon$",
-                                            "^com\\.vmware\\.view$",
-                                            "^com\\.parallels\\.desktop$",
-                                            "^com\\.parallels\\.vm$",
-                                            "^com\\.parallels\\.desktop\\.console$",
-                                            "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                                            "^com\\.vmware\\.proxyApp\\.",
-                                            "^com\\.parallels\\.winapp\\.",
-                                            "^org\\.x\\.X11$",
-                                            "^com\\.apple\\.x11$",
-                                            "^org\\.macosforge\\.xquartz\\.X11$",
-                                            "^org\\.macports\\.X11$",
-                                            "^com\\.microsoft\\.rdc\\.macos$"
-                                        ],
-                                        "type": "frontmost_application_unless"
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "v",
-                                    "modifiers": { "mandatory": ["option"] }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "v",
-                                        "modifiers": ["right_command"]
                                     }
                                 ],
                                 "type": "basic"
@@ -3601,40 +3825,6 @@
                         ]
                     },
                     {
-                        "description": "Ctl+Opt+Cmd =/- to volume Up/Down",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "equal_sign",
-                                    "modifiers": { "mandatory": ["command", "option", "control"] }
-                                },
-                                "to": [{ "key_code": "volume_increment" }],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "hyphen",
-                                    "modifiers": { "mandatory": ["command", "option", "control"] }
-                                },
-                                "to": [{ "key_code": "volume_decrement" }],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Ctl+Opt+Cmd \\ to Volume mute",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "backslash",
-                                    "modifiers": { "mandatory": ["command", "option", "control"] }
-                                },
-                                "to": [{ "key_code": "mute" }],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "description": "J+K at the same time to Esc",
                         "manipulators": [
                             {
@@ -3712,6 +3902,40 @@
                             {
                                 "from": { "key_code": "f6" },
                                 "to": [{ "shell_command": "open -a Music" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Ctl+Opt+Cmd =/- to volume Up/Down",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "equal_sign",
+                                    "modifiers": { "mandatory": ["command", "option", "control"] }
+                                },
+                                "to": [{ "key_code": "volume_increment" }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "hyphen",
+                                    "modifiers": { "mandatory": ["command", "option", "control"] }
+                                },
+                                "to": [{ "key_code": "volume_decrement" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Ctl+Opt+Cmd \\ to Volume mute",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "backslash",
+                                    "modifiers": { "mandatory": ["command", "option", "control"] }
+                                },
+                                "to": [{ "key_code": "mute" }],
                                 "type": "basic"
                             }
                         ]
