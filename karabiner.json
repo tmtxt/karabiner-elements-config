@@ -1764,7 +1764,7 @@
                         ]
                     },
                     {
-                        "description": "Opt+G to Escape",
+                        "description": "Ctrl/Opt+G to Escape",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -1806,7 +1806,48 @@
                                 },
                                 "to": [{ "key_code": "escape" }],
                                 "type": "basic"
-                            }
+                            },
+                          {
+                            "conditions": [
+                              {
+                                "bundle_identifiers": [
+                                  "^com\\.microsoft\\.rdc$",
+                                  "^com\\.microsoft\\.rdc\\.mac$",
+                                  "^com\\.microsoft\\.rdc\\.osx\\.beta$",
+                                  "^net\\.sf\\.cord$",
+                                  "^com\\.thinomenon\\.RemoteDesktopConnection$",
+                                  "^com\\.itap-mobile\\.qmote$",
+                                  "^com\\.nulana\\.remotixmac$",
+                                  "^com\\.p5sys\\.jump\\.mac\\.viewer$",
+                                  "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                                  "^com\\.teamviewer\\.TeamViewer$",
+                                  "^com\\.vmware\\.horizon$",
+                                  "^com\\.2X\\.Client\\.Mac$",
+                                  "^co\\.zeit\\.hyperterm$",
+                                  "^co\\.zeit\\.hyper$",
+                                  "^org\\.vim\\.",
+                                  "^com\\.vmware\\.fusion$",
+                                  "^com\\.vmware\\.horizon$",
+                                  "^com\\.vmware\\.view$",
+                                  "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                                  "^com\\.vmware\\.proxyApp\\.",
+                                  "^com\\.parallels\\.winapp\\.",
+                                  "^org\\.x\\.X11$",
+                                  "^com\\.apple\\.x11$",
+                                  "^org\\.macosforge\\.xquartz\\.X11$",
+                                  "^org\\.macports\\.X11$",
+                                  "^com\\.microsoft\\.rdc\\.macos$"
+                                ],
+                                "type": "frontmost_application_unless"
+                              }
+                            ],
+                            "from": {
+                              "key_code": "g",
+                              "modifiers": { "mandatory": ["control"] }
+                            },
+                            "to": [{ "key_code": "escape" }],
+                            "type": "basic"
+                          }
                         ]
                     },
                     {
@@ -3666,7 +3707,7 @@
                         ]
                     },
                     {
-                        "description": "Opt+G to Escape",
+                        "description": "Ctrl/Opt+G to Escape",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -3708,7 +3749,48 @@
                                 },
                                 "to": [{ "key_code": "escape" }],
                                 "type": "basic"
-                            }
+                            },
+                          {
+                            "conditions": [
+                              {
+                                "bundle_identifiers": [
+                                  "^com\\.microsoft\\.rdc$",
+                                  "^com\\.microsoft\\.rdc\\.mac$",
+                                  "^com\\.microsoft\\.rdc\\.osx\\.beta$",
+                                  "^net\\.sf\\.cord$",
+                                  "^com\\.thinomenon\\.RemoteDesktopConnection$",
+                                  "^com\\.itap-mobile\\.qmote$",
+                                  "^com\\.nulana\\.remotixmac$",
+                                  "^com\\.p5sys\\.jump\\.mac\\.viewer$",
+                                  "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                                  "^com\\.teamviewer\\.TeamViewer$",
+                                  "^com\\.vmware\\.horizon$",
+                                  "^com\\.2X\\.Client\\.Mac$",
+                                  "^co\\.zeit\\.hyperterm$",
+                                  "^co\\.zeit\\.hyper$",
+                                  "^org\\.vim\\.",
+                                  "^com\\.vmware\\.fusion$",
+                                  "^com\\.vmware\\.horizon$",
+                                  "^com\\.vmware\\.view$",
+                                  "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                                  "^com\\.vmware\\.proxyApp\\.",
+                                  "^com\\.parallels\\.winapp\\.",
+                                  "^org\\.x\\.X11$",
+                                  "^com\\.apple\\.x11$",
+                                  "^org\\.macosforge\\.xquartz\\.X11$",
+                                  "^org\\.macports\\.X11$",
+                                  "^com\\.microsoft\\.rdc\\.macos$"
+                                ],
+                                "type": "frontmost_application_unless"
+                              }
+                            ],
+                            "from": {
+                              "key_code": "g",
+                              "modifiers": { "mandatory": ["control"] }
+                            },
+                            "to": [{ "key_code": "escape" }],
+                            "type": "basic"
+                          }
                         ]
                     },
                     {
